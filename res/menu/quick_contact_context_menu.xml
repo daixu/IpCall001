@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/quick_contact_context_call" android:icon="@drawable/ic_menu_call" android:title="拨号"></item>
+  <item android:id="@+id/quick_contact_context_del" android:icon="@drawable/ic_menu_edit" android:title="删除"></item>
+</menu>

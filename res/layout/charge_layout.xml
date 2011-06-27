@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/lY" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical" android:layout_width="fill_parent"
+	      android:background="@color/translucent_dark"
+	      android:layout_height="fill_parent">
+
+  <TextView android:id="@+id/ChargeInfoText"
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#FFc8e89d"
+	    android:layout_marginTop="6dip" android:text="充一百将随机赠送100到500元不等话费"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip">
+  </TextView>
+
+  <TextView android:id="@+id/ChargeSeparator1"
+	    android:background="@drawable/black_white_gradient"
+	    android:layout_marginTop="6dip" android:layout_width="fill_parent"
+	    android:layout_height="2dp" />
+  
+  <TextView android:id="@+id/InputSerialTitle"
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="6dip" android:text="@string/serial_number"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:textStyle="bold" android:textColor="@color/bright_foreground_dark"
+	    android:gravity="left">
+  </TextView>
+
+  <EditText android:id="@+id/InputSerialField"
+	    android:background="@android:drawable/editbox_background"
+	    android:maxLines="1" android:layout_width="fill_parent"
+	    android:layout_height="47dip"
+	    android:inputType="phone"
+	    android:imeOptions="actionNext"
+	    android:digits="1234567890" 
+	    android:maxLength="32"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:textSize="23sp" android:layout_below="@id/InputSerialTitle">
+  </EditText>
+
+  <TextView android:id="@+id/InputPwdTitle"
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:text="@string/passwd_number" android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textStyle="bold" android:layout_below="@id/InputSerialField"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:textColor="@color/bright_foreground_dark"
+	    android:layout_marginTop="6dip" android:gravity="left">
+  </TextView>
+
+  <EditText android:id="@+id/InputPwdField" android:background="@android:drawable/editbox_background"
+	    android:layout_width="fill_parent" android:maxLines="1"
+	    android:layout_height="47dip"
+	    android:inputType="phone"
+	    android:imeOptions="actionDone"
+	    android:digits="1234567890" 
+	    android:maxLength="32"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:textSize="23sp" android:layout_below="@id/InputPwdTitle">
+  </EditText>
+  
+  <TextView
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:text="@string/other_charge"
+	    android:layout_marginTop="6dip" android:gravity="left">
+  </TextView>
+
+  <TextView android:id="@+id/ChargeSeparator2"
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textStyle="bold" 
+	    android:layout_marginLeft="6dip" android:layout_marginRight="6dip"
+	    android:text=""
+	    android:layout_marginTop="6dip" android:gravity="left">
+  </TextView>
+
+  <TextView android:id="@+id/ChargeSeparator3"
+	    android:background="@drawable/black_white_gradient"
+	    android:layout_marginTop="6dip" android:layout_width="fill_parent"
+	    android:layout_height="2dp" />
+    
+    <LinearLayout
+    	android:layout_height="fill_parent"
+    	android:layout_width="fill_parent"
+    	>
+    	
+  <Button android:id="@+id/DoChargeButton" android:layout_width="fill_parent"
+	  android:textAppearance="?android:attr/textAppearanceMedium"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="bottom"
+	  android:textColor="#FF202020"
+	  android:inputType="none"
+	  android:background="@drawable/charge_button_bg"
+	  android:layout_marginLeft="6dip" android:layout_marginRight="6dip"	  
+	  android:text="@string/charge">
+  </Button>
+  </LinearLayout>
+</LinearLayout>

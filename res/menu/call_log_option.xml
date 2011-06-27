@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/call_log_option_call" android:title="拨号" android:icon="@drawable/ic_menu_call"></item>
+  <item android:id="@+id/call_log_option_del" android:icon="@drawable/ic_menu_delete" android:title="删除"></item>
+  <item android:id="@+id/call_log_option_clear" android:icon="@drawable/ic_menu_close_clear_cancel" android:title="清空"></item>
+</menu>

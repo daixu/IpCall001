@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/main_option_balance" android:icon="@drawable/ic_menu_search" android:title="查询余额"></item>
+  <item android:id="@+id/main_option_id" android:icon="@drawable/ic_menu_info_details" android:title="您的ID"></item>
+  <item android:id="@+id/main_option_number" android:icon="@drawable/ic_menu_edit" android:title="本人接听号码"></item>
+  <item android:id="@+id/main_option_call_log" android:icon="@drawable/ic_tab_selected_recent" android:title="通话记录"></item>
+  <item android:id="@+id/main_option_call" android:icon="@drawable/ic_menu_call" android:title="咨询客服"></item>
+  <item android:id="@+id/main_option_partener" android:icon="@drawable/ic_menu_myplaces" android:title="合作方"></item>
+  <item android:id="@+id/main_option_about" android:icon="@drawable/ic_menu_info_details" android:title="关于"></item>
+  <item android:id="@+id/main_option_help" android:icon="@drawable/ic_menu_help" android:title="帮助"></item>
+  <item android:id="@+id/main_option_update" android:icon="@drawable/ic_menu_rotate" android:title="升级版本"></item>
+</menu>

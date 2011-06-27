@@ -1,0 +1,1394 @@
+com.sqt001.ipcall.activity.AccountActiveActivity -> com.sqt001.ipcall.activity.AccountActiveActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.sqt001.ipcall.activity.AccountActiveActivity$1 -> com.sqt001.ipcall.activity.cq:
+    com.sqt001.ipcall.activity.AccountActiveActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountActiveActivity$2 -> com.sqt001.ipcall.activity.cp:
+    com.sqt001.ipcall.activity.AccountActiveActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountActiveProgress -> com.sqt001.ipcall.activity.AccountActiveProgress:
+    java.lang.String TAG -> a
+    android.widget.TextView mStatusTextView -> b
+    android.widget.Button mOkButton -> c
+    android.widget.ProgressBar mProgressBar -> d
+    android.view.View mOkPanel -> e
+    com.sqt001.ipcall.provider.UnImsiRegisterTask mBalanceTask -> f
+    int mResultCode -> g
+    android.os.Handler mHandler -> h
+    com.sqt001.ipcall.activity.AccountActiveProgress$SmsSendListener mSmsListener -> i
+    com.sqt001.ipcall.util.SmsSender mSmsSender -> j
+    java.util.Timer mTimer -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void setStatusText(int) -> a
+    void stopProgressBar() -> a
+    void onClick(android.view.View) -> onClick
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    void access$0(com.sqt001.ipcall.activity.AccountActiveProgress) -> a
+    void access$1(com.sqt001.ipcall.activity.AccountActiveProgress) -> b
+    void access$2(com.sqt001.ipcall.activity.AccountActiveProgress) -> c
+    void access$3(com.sqt001.ipcall.activity.AccountActiveProgress) -> d
+    void access$4(com.sqt001.ipcall.activity.AccountActiveProgress) -> e
+    android.os.Handler access$5(com.sqt001.ipcall.activity.AccountActiveProgress) -> f
+    com.sqt001.ipcall.provider.UnImsiRegisterTask access$6(com.sqt001.ipcall.activity.AccountActiveProgress) -> g
+    void access$7$4b219254(com.sqt001.ipcall.activity.AccountActiveProgress) -> h
+com.sqt001.ipcall.activity.AccountActiveProgress$1 -> com.sqt001.ipcall.activity.bp:
+    com.sqt001.ipcall.activity.AccountActiveProgress this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.sqt001.ipcall.activity.AccountActiveProgress$2 -> com.sqt001.ipcall.activity.bq:
+    com.sqt001.ipcall.activity.AccountActiveProgress this$0 -> a
+    int val$what -> b
+    void run() -> run
+com.sqt001.ipcall.activity.AccountActiveProgress$3 -> com.sqt001.ipcall.activity.br:
+    com.sqt001.ipcall.activity.AccountActiveProgress this$0 -> a
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.activity.AccountActiveProgress$SmsSendListener -> com.sqt001.ipcall.activity.af:
+    com.sqt001.ipcall.activity.AccountActiveProgress this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.sqt001.ipcall.activity.AccountCenterActivity -> com.sqt001.ipcall.activity.AccountCenterActivity:
+    com.sqt001.ipcall.provider.BalanceTask mBalanceTask -> a
+    android.widget.TextView mId -> b
+    android.widget.TextView mBindPhone -> c
+    android.widget.Button mBalanceBtn -> d
+    android.widget.Button mChargeBtn -> e
+    com.sqt001.ipcall.provider.UpdateTask mUpdateTask -> f
+    com.sqt001.ipcall.provider.DownloadTask mDownloadTask -> g
+    com.sqt001.ipcall.login.SendSms sendSms -> h
+    boolean isBind -> i
+    android.content.BroadcastReceiver mReceiver -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    void refresh() -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    com.sqt001.ipcall.provider.BalanceTask access$0(com.sqt001.ipcall.activity.AccountCenterActivity) -> a
+    void access$1(com.sqt001.ipcall.activity.AccountCenterActivity,com.sqt001.ipcall.provider.BalanceTask) -> a
+    com.sqt001.ipcall.login.SendSms access$2(com.sqt001.ipcall.activity.AccountCenterActivity) -> b
+    com.sqt001.ipcall.provider.UpdateTask access$4(com.sqt001.ipcall.activity.AccountCenterActivity) -> c
+    void access$5$550562ea(com.sqt001.ipcall.activity.AccountCenterActivity) -> d
+com.sqt001.ipcall.activity.AccountCenterActivity$1 -> com.sqt001.ipcall.activity.cd:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$1$1 -> com.sqt001.ipcall.activity.ag:
+    com.sqt001.ipcall.activity.AccountCenterActivity$1 this$1 -> a
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.activity.AccountCenterActivity$2 -> com.sqt001.ipcall.activity.ce:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$3 -> com.sqt001.ipcall.activity.cf:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.sqt001.ipcall.activity.AccountCenterActivity$4 -> com.sqt001.ipcall.activity.cg:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$4$1 -> com.sqt001.ipcall.activity.cw:
+    com.sqt001.ipcall.activity.AccountCenterActivity$4 this$1 -> a
+    void onGetSmsTaskFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.AccountCenterActivity$4$2 -> com.sqt001.ipcall.activity.cy:
+    com.sqt001.ipcall.activity.AccountCenterActivity$4 this$1 -> a
+    void onBindFinish$2598ce09(boolean) -> a
+com.sqt001.ipcall.activity.AccountCenterActivity$4$2$1 -> com.sqt001.ipcall.activity.s:
+    com.sqt001.ipcall.activity.AccountCenterActivity$4$2 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$4$2$2 -> com.sqt001.ipcall.activity.r:
+    com.sqt001.ipcall.activity.AccountCenterActivity$4$2 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$5 -> com.sqt001.ipcall.activity.ci:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$6 -> com.sqt001.ipcall.activity.cj:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onCancelGetUpdate() -> a
+com.sqt001.ipcall.activity.AccountCenterActivity$7 -> com.sqt001.ipcall.activity.ca:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountCenterActivity$8 -> com.sqt001.ipcall.activity.cb:
+    com.sqt001.ipcall.activity.AccountCenterActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity -> com.sqt001.ipcall.activity.AccountRegisterActivity:
+    com.sqt001.ipcall.login.SendSms sendSms -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void access$4(com.sqt001.ipcall.activity.AccountRegisterActivity,java.lang.String) -> a
+    void access$5(com.sqt001.ipcall.activity.AccountRegisterActivity) -> a
+    com.sqt001.ipcall.login.SendSms access$6(com.sqt001.ipcall.activity.AccountRegisterActivity) -> b
+com.sqt001.ipcall.activity.AccountRegisterActivity$1 -> com.sqt001.ipcall.activity.be:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity$2 -> com.sqt001.ipcall.activity.bf:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity$3 -> com.sqt001.ipcall.activity.bc:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity$4 -> com.sqt001.ipcall.activity.bd:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity$5 -> com.sqt001.ipcall.activity.bk:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.AccountRegisterActivity$6 -> com.sqt001.ipcall.activity.bm:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onLoginFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.AccountRegisterActivity$7 -> com.sqt001.ipcall.activity.bg:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onQueryAccountFinish(java.lang.String,java.lang.String) -> a
+    void register() -> a
+    void login() -> b
+com.sqt001.ipcall.activity.AccountRegisterActivity$7$1 -> com.sqt001.ipcall.activity.an:
+    com.sqt001.ipcall.activity.AccountRegisterActivity$7 this$1 -> a
+    void onRegisterFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.AccountRegisterActivity$7$2 -> com.sqt001.ipcall.activity.ao:
+    com.sqt001.ipcall.activity.AccountRegisterActivity$7 this$1 -> a
+    void onRegisterFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.AccountRegisterActivity$8 -> com.sqt001.ipcall.activity.bi:
+    com.sqt001.ipcall.activity.AccountRegisterActivity this$0 -> a
+    void onGetSmsTaskFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.CallScreenActivity -> com.sqt001.ipcall.activity.CallScreenActivity:
+    com.sqt001.ipcall.provider.CallTask mCallTask -> a
+    com.sqt001.ipcall.util.CallMonitor mCallMonitor -> b
+    java.lang.String mCalledNumber -> c
+    java.lang.String mCalledName -> d
+    java.lang.String mCallerNumber -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    boolean validateCalled() -> a
+    void call() -> b
+    void updateProgressText(int) -> a
+    void startCallTask() -> c
+    void cancelCallTask() -> d
+    void startCallMonitor() -> e
+    void cancelCallMonitor() -> f
+    void access$0(com.sqt001.ipcall.activity.CallScreenActivity,java.lang.String) -> a
+    void access$2(com.sqt001.ipcall.activity.CallScreenActivity) -> a
+    void access$3(com.sqt001.ipcall.activity.CallScreenActivity,int) -> a
+    void access$4(com.sqt001.ipcall.activity.CallScreenActivity) -> b
+    void access$5(com.sqt001.ipcall.activity.CallScreenActivity) -> c
+    void access$6(com.sqt001.ipcall.activity.CallScreenActivity) -> d
+    void access$7(com.sqt001.ipcall.activity.CallScreenActivity) -> e
+    void access$8(com.sqt001.ipcall.activity.CallScreenActivity) -> f
+com.sqt001.ipcall.activity.CallScreenActivity$1 -> com.sqt001.ipcall.activity.am:
+    com.sqt001.ipcall.activity.CallScreenActivity this$0 -> a
+    void onOk(java.lang.String) -> a
+    void onInputError() -> b
+    void onCancel() -> a
+com.sqt001.ipcall.activity.CallScreenActivity$2 -> com.sqt001.ipcall.activity.al:
+    com.sqt001.ipcall.activity.CallScreenActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.CallScreenActivity$3 -> com.sqt001.ipcall.activity.aj:
+    com.sqt001.ipcall.activity.CallScreenActivity this$0 -> a
+    void onGetCallSuc() -> a
+    void onExceptionResult() -> b
+    void onInputMyNum() -> c
+    void onCallTaskFail() -> d
+com.sqt001.ipcall.activity.CallScreenActivity$4 -> com.sqt001.ipcall.activity.ai:
+    com.sqt001.ipcall.activity.CallScreenActivity this$0 -> a
+    void onListenTimeOvered() -> a
+    void onCallRingWithoutAnswer() -> b
+    void onCallAnswered() -> c
+    void onCallEnd() -> d
+com.sqt001.ipcall.activity.ChargeActivity -> com.sqt001.ipcall.activity.ChargeActivity:
+    com.sqt001.ipcall.provider.BalanceTask mBalanceTask -> a
+    com.sqt001.ipcall.provider.ChargeTask mChargeTask -> b
+    android.widget.LinearLayout mLayout -> c
+    android.widget.EditText mEditor -> d
+    java.lang.String mNumber -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    boolean checking() -> a
+    java.lang.String fetchSerialNumber() -> b
+    boolean validateSerialNumber(java.lang.String) -> a
+    java.lang.String fetchPwdNumber() -> c
+    boolean validatePwdNumber(java.lang.String) -> b
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean access$0(com.sqt001.ipcall.activity.ChargeActivity) -> a
+    void access$1(com.sqt001.ipcall.activity.ChargeActivity,android.widget.LinearLayout) -> a
+    android.widget.LinearLayout access$2(com.sqt001.ipcall.activity.ChargeActivity) -> b
+    void access$3(com.sqt001.ipcall.activity.ChargeActivity,android.widget.EditText) -> a
+    android.widget.EditText access$4(com.sqt001.ipcall.activity.ChargeActivity) -> c
+    java.lang.String access$5(com.sqt001.ipcall.activity.ChargeActivity) -> d
+    void access$6(com.sqt001.ipcall.activity.ChargeActivity,java.lang.String) -> a
+    void access$7(com.sqt001.ipcall.activity.ChargeActivity,java.lang.String) -> b
+    void access$8(com.sqt001.ipcall.activity.ChargeActivity) -> e
+    com.sqt001.ipcall.provider.BalanceTask access$9(com.sqt001.ipcall.activity.ChargeActivity) -> f
+    void access$10$78fbaeb(com.sqt001.ipcall.activity.ChargeActivity) -> g
+com.sqt001.ipcall.activity.ChargeActivity$1 -> com.sqt001.ipcall.activity.ab:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$1$1 -> com.sqt001.ipcall.activity.c:
+    com.sqt001.ipcall.activity.ChargeActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$1$2 -> com.sqt001.ipcall.activity.a:
+    com.sqt001.ipcall.activity.ChargeActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$1$3 -> com.sqt001.ipcall.activity.b:
+    com.sqt001.ipcall.activity.ChargeActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$2 -> com.sqt001.ipcall.activity.ac:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    java.lang.String val$phone -> b
+    void onInputMyNum() -> b
+    void onCancelCharge() -> a
+com.sqt001.ipcall.activity.ChargeActivity$3 -> com.sqt001.ipcall.activity.z:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$4 -> com.sqt001.ipcall.activity.aa:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$5 -> com.sqt001.ipcall.activity.ak:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ChargeActivity$6 -> com.sqt001.ipcall.activity.ah:
+    com.sqt001.ipcall.activity.ChargeActivity this$0 -> a
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.activity.ContactsListActivity -> com.sqt001.ipcall.activity.ContactsListActivity:
+    com.sqt001.ipcall.activity.ContactsListActivity$RemoveWindow mRemoveWindow -> a
+    boolean mShowing -> b
+    char mPrevLetter -> c
+    android.os.Handler mHandler -> d
+    android.view.WindowManager mWindowManager -> e
+    android.widget.TextView mDialogText -> f
+    boolean mReady -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void removeWindow() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+    void popupNumbersListForCall(int) -> a
+    com.sqt001.ipcall.util.Tuple getContact(int) -> b
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    int getSelectedItemPositonFromContextMenu(android.view.MenuItem) -> a
+    boolean positionIsInValid(int) -> c
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void access$0(com.sqt001.ipcall.activity.ContactsListActivity) -> a
+    void access$1$134e9edc(com.sqt001.ipcall.activity.ContactsListActivity) -> b
+    android.view.WindowManager access$2(com.sqt001.ipcall.activity.ContactsListActivity) -> c
+    android.widget.TextView access$3(com.sqt001.ipcall.activity.ContactsListActivity) -> d
+    boolean access$4(com.sqt001.ipcall.activity.ContactsListActivity) -> e
+    java.lang.String access$5(com.sqt001.ipcall.activity.ContactsListActivity,int) -> a
+    boolean access$6(com.sqt001.ipcall.activity.ContactsListActivity) -> f
+    char access$7(com.sqt001.ipcall.activity.ContactsListActivity) -> g
+    void access$8$134e9edc(com.sqt001.ipcall.activity.ContactsListActivity) -> h
+    android.os.Handler access$9(com.sqt001.ipcall.activity.ContactsListActivity) -> i
+    com.sqt001.ipcall.activity.ContactsListActivity$RemoveWindow access$10(com.sqt001.ipcall.activity.ContactsListActivity) -> j
+    void access$11(com.sqt001.ipcall.activity.ContactsListActivity,char) -> a
+    void access$12(com.sqt001.ipcall.activity.ContactsListActivity,int) -> b
+com.sqt001.ipcall.activity.ContactsListActivity$1 -> com.sqt001.ipcall.activity.f:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    void run() -> run
+com.sqt001.ipcall.activity.ContactsListActivity$2 -> com.sqt001.ipcall.activity.e:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.sqt001.ipcall.activity.ContactsListActivity$3 -> com.sqt001.ipcall.activity.d:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.sqt001.ipcall.activity.ContactsListActivity$4 -> com.sqt001.ipcall.activity.i:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    java.lang.String[] val$names -> b
+    java.lang.String[] val$numbers -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ContactsListActivity$5 -> com.sqt001.ipcall.activity.h:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    java.lang.String[] val$names -> b
+    java.lang.String[] val$numbers -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ContactsListActivity$RemoveWindow -> com.sqt001.ipcall.activity.y:
+    com.sqt001.ipcall.activity.ContactsListActivity this$0 -> a
+    void run() -> run
+com.sqt001.ipcall.activity.DialtactsActivity -> com.sqt001.ipcall.activity.DialtactsActivity:
+    android.widget.TabHost mTabHost -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onTabChanged(java.lang.String) -> onTabChanged
+com.sqt001.ipcall.activity.FinalPromptActivity -> com.sqt001.ipcall.activity.FinalPromptActivity:
+    android.widget.TextView mId -> a
+    android.widget.TextView mIdVal -> b
+    android.widget.TextView mAccount -> c
+    android.widget.TextView mAccountVal -> d
+    android.widget.TextView mUnBind -> e
+    android.widget.TextView mBalance -> f
+    android.widget.TextView mBalanceValue -> g
+    android.widget.TextView mPassword -> h
+    android.widget.TextView mPasswordVal -> i
+    android.widget.TextView mModifyPassword -> j
+    android.widget.EditText mEditText -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void checkResult() -> a
+    void access$0(com.sqt001.ipcall.activity.FinalPromptActivity,android.widget.EditText) -> a
+    android.widget.EditText access$1(com.sqt001.ipcall.activity.FinalPromptActivity) -> a
+com.sqt001.ipcall.activity.FinalPromptActivity$1 -> com.sqt001.ipcall.activity.cx:
+    com.sqt001.ipcall.activity.FinalPromptActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$2 -> com.sqt001.ipcall.activity.cv:
+    com.sqt001.ipcall.activity.FinalPromptActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$3 -> com.sqt001.ipcall.activity.cu:
+    com.sqt001.ipcall.activity.FinalPromptActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$3$1 -> com.sqt001.ipcall.activity.bx:
+    com.sqt001.ipcall.activity.FinalPromptActivity$3 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$3$2 -> com.sqt001.ipcall.activity.bv:
+    com.sqt001.ipcall.activity.FinalPromptActivity$3 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$3$3 -> com.sqt001.ipcall.activity.bw:
+    com.sqt001.ipcall.activity.FinalPromptActivity$3 this$1 -> a
+    java.lang.String val$newPwd -> b
+    void onModifyPwdFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.FinalPromptActivity$3$3$1 -> com.sqt001.ipcall.activity.ae:
+    com.sqt001.ipcall.activity.FinalPromptActivity$3$3 this$2 -> a
+    java.lang.String val$newPwd -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.FinalPromptActivity$3$3$2 -> com.sqt001.ipcall.activity.ad:
+    com.sqt001.ipcall.activity.FinalPromptActivity$3$3 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ForgetPwdActivity -> com.sqt001.ipcall.activity.ForgetPwdActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.sqt001.ipcall.activity.ForgetPwdActivity$1 -> com.sqt001.ipcall.activity.dc:
+    com.sqt001.ipcall.activity.ForgetPwdActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ForgetPwdActivity$1$1 -> com.sqt001.ipcall.activity.by:
+    com.sqt001.ipcall.activity.ForgetPwdActivity$1 this$1 -> a
+    void onGetPasswordFinish$2598ce09(boolean) -> a
+com.sqt001.ipcall.activity.ForgetPwdActivity$1$1$1 -> com.sqt001.ipcall.activity.ch:
+    com.sqt001.ipcall.activity.ForgetPwdActivity$1$1 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ForgetPwdActivity$2 -> com.sqt001.ipcall.activity.db:
+    com.sqt001.ipcall.activity.ForgetPwdActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ForgetPwdActivity$3 -> com.sqt001.ipcall.activity.de:
+    com.sqt001.ipcall.activity.ForgetPwdActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.LogActivity -> com.sqt001.ipcall.activity.LogActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.sqt001.ipcall.activity.ManualBindMainActivity -> com.sqt001.ipcall.activity.ManualBindMainActivity:
+    android.widget.TextView mId -> a
+    android.widget.TextView mIdVal -> b
+    android.widget.TextView mAccount -> c
+    android.widget.TextView mAccountVal -> d
+    android.widget.TextView mUnBind -> e
+    android.widget.TextView mBalance -> f
+    android.widget.TextView mBalanceValue -> g
+    android.widget.TextView mPassword -> h
+    android.widget.TextView mPasswordVal -> i
+    android.widget.TextView mModifyPassword -> j
+    com.sqt001.ipcall.login.SendSms sendSms -> k
+    android.widget.EditText mEditText -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void checkResult() -> a
+    com.sqt001.ipcall.login.SendSms access$0(com.sqt001.ipcall.activity.ManualBindMainActivity) -> a
+    void access$2(com.sqt001.ipcall.activity.ManualBindMainActivity,android.widget.EditText) -> a
+    android.widget.EditText access$3(com.sqt001.ipcall.activity.ManualBindMainActivity) -> b
+com.sqt001.ipcall.activity.ManualBindMainActivity$1 -> com.sqt001.ipcall.activity.co:
+    com.sqt001.ipcall.activity.ManualBindMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$1$1 -> com.sqt001.ipcall.activity.cc:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$1 this$1 -> a
+    void onGetSmsTaskFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.ManualBindMainActivity$1$2 -> com.sqt001.ipcall.activity.bz:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$1 this$1 -> a
+    void onBindFinish$2598ce09(boolean) -> a
+com.sqt001.ipcall.activity.ManualBindMainActivity$1$2$1 -> com.sqt001.ipcall.activity.o:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$1$2 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$2 -> com.sqt001.ipcall.activity.cn:
+    com.sqt001.ipcall.activity.ManualBindMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$3 -> com.sqt001.ipcall.activity.cm:
+    com.sqt001.ipcall.activity.ManualBindMainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$4 -> com.sqt001.ipcall.activity.cl:
+    com.sqt001.ipcall.activity.ManualBindMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$4$1 -> com.sqt001.ipcall.activity.t:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$4$2 -> com.sqt001.ipcall.activity.u:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$4$3 -> com.sqt001.ipcall.activity.v:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$4 this$1 -> a
+    java.lang.String val$newPwd -> b
+    void onModifyPwdFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.ManualBindMainActivity$4$3$1 -> com.sqt001.ipcall.activity.q:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$4$3 this$2 -> a
+    java.lang.String val$newPwd -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ManualBindMainActivity$4$3$2 -> com.sqt001.ipcall.activity.p:
+    com.sqt001.ipcall.activity.ManualBindMainActivity$4$3 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity -> com.sqt001.ipcall.activity.ModifyAccountPwdActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity$1 -> com.sqt001.ipcall.activity.bs:
+    com.sqt001.ipcall.activity.ModifyAccountPwdActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity$1$1 -> com.sqt001.ipcall.activity.w:
+    com.sqt001.ipcall.activity.ModifyAccountPwdActivity$1 this$1 -> a
+    java.lang.String val$newPwd -> b
+    void onModifyPwdFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity$1$1$1 -> com.sqt001.ipcall.activity.x:
+    com.sqt001.ipcall.activity.ModifyAccountPwdActivity$1$1 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity$2 -> com.sqt001.ipcall.activity.bt:
+    com.sqt001.ipcall.activity.ModifyAccountPwdActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.ModifyAccountPwdActivity$3 -> com.sqt001.ipcall.activity.bu:
+    com.sqt001.ipcall.activity.ModifyAccountPwdActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.QuickCallsListActivity -> com.sqt001.ipcall.activity.QuickCallsListActivity:
+    com.sqt001.ipcall.provider.QuickContactDbAdapter mDb -> a
+    android.widget.SimpleCursorAdapter mAdapter -> b
+    android.database.Cursor mCursor -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    int getSelectedItemPositonFromContextMenu(android.view.MenuItem) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void call(int) -> a
+    void delete(int) -> b
+    boolean positionIsInValid(int) -> c
+com.sqt001.ipcall.activity.RecentCallsListActivity -> com.sqt001.ipcall.activity.RecentCallsListActivity:
+    com.sqt001.ipcall.provider.CallLogDbAdapter mDb -> a
+    com.sqt001.ipcall.activity.RecentCallsListActivity$MyAdapter mAdapter -> b
+    android.database.Cursor mCursor -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void call(int) -> a
+    com.sqt001.ipcall.util.Tuple getContactFromList(int) -> b
+    void delete(int) -> c
+    boolean positionIsInValid(int) -> d
+    void clear() -> a
+    java.util.List getData() -> b
+    void access$0(com.sqt001.ipcall.activity.RecentCallsListActivity,int) -> a
+    void access$1(com.sqt001.ipcall.activity.RecentCallsListActivity,int,int) -> a
+com.sqt001.ipcall.activity.RecentCallsListActivity$1 -> com.sqt001.ipcall.activity.aw:
+    com.sqt001.ipcall.activity.RecentCallsListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.sqt001.ipcall.activity.RecentCallsListActivity$2 -> com.sqt001.ipcall.activity.av:
+    com.sqt001.ipcall.activity.RecentCallsListActivity this$0 -> a
+    int val$position -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.RecentCallsListActivity$MyAdapter -> com.sqt001.ipcall.activity.dd:
+    java.util.List dataList -> a
+    com.sqt001.ipcall.activity.RecentCallsListActivity this$0 -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.sqt001.ipcall.activity.RecentCallsListActivityxx -> com.sqt001.ipcall.activity.RecentCallsListActivityxx:
+    com.sqt001.ipcall.provider.CallLogDbAdapter mDb -> a
+    android.widget.SimpleCursorAdapter mAdapter -> b
+    android.database.Cursor mCursor -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void call(int) -> a
+    com.sqt001.ipcall.util.Tuple getContactFromList$4b1a6c78() -> a
+    void delete(int) -> b
+    boolean positionIsInValid(int) -> c
+    void clear() -> b
+    void access$0(com.sqt001.ipcall.activity.RecentCallsListActivityxx,int) -> a
+    void access$1(com.sqt001.ipcall.activity.RecentCallsListActivityxx,int,int) -> a
+com.sqt001.ipcall.activity.RecentCallsListActivityxx$1 -> com.sqt001.ipcall.activity.cz:
+    com.sqt001.ipcall.activity.RecentCallsListActivityxx this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.sqt001.ipcall.activity.RecentCallsListActivityxx$2 -> com.sqt001.ipcall.activity.da:
+    com.sqt001.ipcall.activity.RecentCallsListActivityxx this$0 -> a
+    int val$position -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.RecommendColumnActivity -> com.sqt001.ipcall.activity.RecommendColumnActivity:
+    android.widget.ListView mListView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    java.util.List getData() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.sqt001.ipcall.activity.RecommendColumnActivity$1 -> com.sqt001.ipcall.activity.cs:
+    com.sqt001.ipcall.activity.RecommendColumnActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.sqt001.ipcall.activity.RecommendColumnActivity$1$1 -> com.sqt001.ipcall.activity.ck:
+    com.sqt001.ipcall.activity.RecommendColumnActivity$1 this$1 -> a
+    java.util.ArrayList val$lst -> b
+    int val$position -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.RecommendColumnActivity$1$2 -> com.sqt001.ipcall.activity.df:
+    com.sqt001.ipcall.activity.RecommendColumnActivity$1 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.RecommendColumnActivity$2 -> com.sqt001.ipcall.activity.ct:
+    com.sqt001.ipcall.activity.RecommendColumnActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.RecommendColumnActivity$3 -> com.sqt001.ipcall.activity.cr:
+    com.sqt001.ipcall.activity.RecommendColumnActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer -> com.sqt001.ipcall.activity.TwelveKeyDialer:
+    com.sqt001.ipcall.activity.TwelveKeyDialer$MiniNumberPadAdapter mNumberChooser -> a
+    android.widget.EditText mDigits -> b
+    com.sqt001.ipcall.provider.BalanceTask mBalanceTask -> c
+    android.graphics.drawable.Drawable mDigitsBackground -> d
+    android.graphics.drawable.Drawable mDigitsEmptyBackground -> e
+    android.view.View mDialButton -> f
+    android.view.View mDelete -> g
+    android.view.View mAddressList -> h
+    android.widget.TextView mTextView -> i
+    boolean mDTMFToneEnabled -> j
+    android.media.ToneGenerator mToneGenerator -> k
+    java.lang.Object mToneGeneratorLock -> l
+    com.sqt001.ipcall.provider.UpdateTask mUpdateTask -> m
+    com.sqt001.ipcall.provider.DownloadTask mDownloadTask -> n
+    java.lang.String TAG -> o
+    android.os.Handler mToneStopper -> p
+    void onCreate(android.os.Bundle) -> onCreate
+    void showCallerLable() -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void playTone(int) -> a
+    void call() -> b
+    java.lang.String fetchCalledNumber() -> c
+    boolean numberIsUnValid(java.lang.String) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.media.ToneGenerator access$0(com.sqt001.ipcall.activity.TwelveKeyDialer) -> a
+    android.widget.EditText access$1(com.sqt001.ipcall.activity.TwelveKeyDialer) -> b
+    boolean access$2(com.sqt001.ipcall.activity.TwelveKeyDialer) -> c
+    android.graphics.drawable.Drawable access$3(com.sqt001.ipcall.activity.TwelveKeyDialer) -> d
+    android.graphics.drawable.Drawable access$4(com.sqt001.ipcall.activity.TwelveKeyDialer) -> e
+    void access$5(com.sqt001.ipcall.activity.TwelveKeyDialer) -> f
+    void access$7(com.sqt001.ipcall.activity.TwelveKeyDialer,java.lang.String) -> a
+    com.sqt001.ipcall.provider.BalanceTask access$8(com.sqt001.ipcall.activity.TwelveKeyDialer) -> g
+    void access$9$3f709de5(com.sqt001.ipcall.activity.TwelveKeyDialer) -> h
+    com.sqt001.ipcall.provider.UpdateTask access$11(com.sqt001.ipcall.activity.TwelveKeyDialer) -> i
+    void access$12$6785dd1c(com.sqt001.ipcall.activity.TwelveKeyDialer) -> j
+com.sqt001.ipcall.activity.TwelveKeyDialer$1 -> com.sqt001.ipcall.activity.bh:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.sqt001.ipcall.activity.TwelveKeyDialer$10 -> com.sqt001.ipcall.activity.as:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    android.content.Context val$context -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$11 -> com.sqt001.ipcall.activity.ar:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.activity.TwelveKeyDialer$12 -> com.sqt001.ipcall.activity.au:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onCancelGetUpdate() -> a
+com.sqt001.ipcall.activity.TwelveKeyDialer$13 -> com.sqt001.ipcall.activity.at:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$14 -> com.sqt001.ipcall.activity.aq:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$2 -> com.sqt001.ipcall.activity.bj:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    boolean onLongClick(android.view.View) -> onLongClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$3 -> com.sqt001.ipcall.activity.bl:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$4 -> com.sqt001.ipcall.activity.bn:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.sqt001.ipcall.activity.TwelveKeyDialer$5 -> com.sqt001.ipcall.activity.ax:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$6 -> com.sqt001.ipcall.activity.ay:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$7 -> com.sqt001.ipcall.activity.az:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    boolean onLongClick(android.view.View) -> onLongClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$8 -> com.sqt001.ipcall.activity.ba:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$9 -> com.sqt001.ipcall.activity.bb:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$ItemClickListener -> com.sqt001.ipcall.activity.bo:
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$MiniNumberPadAdapter -> com.sqt001.ipcall.activity.ap:
+    java.util.Map mKeyMapper -> a
+    com.sqt001.ipcall.activity.TwelveKeyDialer this$0 -> b
+    void initKeyMapper() -> a
+    void onClick(android.view.View) -> onClick
+com.sqt001.ipcall.activity.TwelveKeyDialer$MiniNumberPadAdapter$KeySoundPair -> com.sqt001.ipcall.activity.dg:
+    int code -> a
+    int sound -> b
+    com.sqt001.ipcall.activity.TwelveKeyDialer$MiniNumberPadAdapter this$1 -> c
+com.sqt001.ipcall.activity.WelcomeActivity -> com.sqt001.ipcall.activity.WelcomeActivity:
+    com.sqt001.ipcall.login.SendSms sendSms -> a
+    android.os.Handler mHandler -> b
+    java.util.Timer mTimer -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$1(com.sqt001.ipcall.activity.WelcomeActivity) -> a
+    void access$2(com.sqt001.ipcall.activity.WelcomeActivity) -> b
+    void access$3$389128f9(com.sqt001.ipcall.activity.WelcomeActivity) -> c
+    com.sqt001.ipcall.login.SendSms access$4(com.sqt001.ipcall.activity.WelcomeActivity) -> d
+com.sqt001.ipcall.activity.WelcomeActivity$1 -> com.sqt001.ipcall.activity.m:
+    com.sqt001.ipcall.activity.WelcomeActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.sqt001.ipcall.activity.WelcomeActivity$2 -> com.sqt001.ipcall.activity.n:
+    com.sqt001.ipcall.activity.WelcomeActivity this$0 -> a
+    int val$what -> b
+    void run() -> run
+com.sqt001.ipcall.activity.WelcomeActivity$3 -> com.sqt001.ipcall.activity.k:
+    com.sqt001.ipcall.activity.WelcomeActivity this$0 -> a
+    void onQueryAccountFinish(java.lang.String,java.lang.String) -> a
+    void register() -> a
+    void login() -> b
+com.sqt001.ipcall.activity.WelcomeActivity$3$1 -> com.sqt001.ipcall.activity.g:
+    com.sqt001.ipcall.activity.WelcomeActivity$3 this$1 -> a
+    void onRegisterFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.WelcomeActivity$3$2 -> com.sqt001.ipcall.activity.j:
+    com.sqt001.ipcall.activity.WelcomeActivity$3 this$1 -> a
+    void onRegisterFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.activity.WelcomeActivity$4 -> com.sqt001.ipcall.activity.l:
+    com.sqt001.ipcall.activity.WelcomeActivity this$0 -> a
+    void onGetSmsTaskFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.application.AppPreference -> com.sqt001.ipcall.application.a:
+    boolean mNeedShowNewVersion -> a
+    boolean mNeedPostSoftList -> b
+    android.content.SharedPreferences mPrefer -> c
+    boolean mIsEclairOrLater -> d
+    boolean mIsGingerbreadOrLater -> e
+    android.content.Context context -> f
+    java.lang.String IPCALL_DATA_GUID_PATH -> g
+    void initialize(android.content.Context) -> a
+    void terminate() -> a
+    android.content.Context getContext() -> b
+    boolean readBackupGuid() -> H
+    java.lang.String generateGuidAsAccount() -> c
+    int getApplicationVersionCode(android.content.Context) -> b
+    void markNextMonthForSoftListPost() -> d
+    boolean isNeedPostSoftList() -> e
+    java.lang.String getPhoneModel() -> f
+    java.lang.String getImei() -> g
+    void putImsi(java.lang.String) -> a
+    java.lang.String getImsi() -> h
+    java.lang.String getMyNum() -> i
+    void putMyNum(java.lang.String) -> b
+    void putPassword(java.lang.String) -> c
+    java.lang.String getPassword() -> j
+    void putAccount(java.lang.String) -> d
+    java.lang.String getAccount() -> k
+    java.lang.String getChannel() -> l
+    java.lang.String getScreenWidth() -> m
+    java.lang.String getScreenHeight() -> n
+    int getUserBalance() -> o
+    void putUserBalance(int) -> a
+    java.lang.String getUserId() -> p
+    void putUserId(java.lang.String) -> e
+    java.lang.String getMoneySaveSecret() -> q
+    void putMoneySaveSecret(java.lang.String) -> f
+    java.lang.String getAbout() -> r
+    void putAbout(java.lang.String) -> g
+    java.lang.String getServiceCallNum() -> s
+    void putServiceCallNum(java.lang.String) -> h
+    java.lang.String getGatewayNumber() -> t
+    void putGatewayNumber(java.lang.String) -> i
+    void putMessage(java.lang.String) -> j
+    int getIsnewuser() -> u
+    void putIsnewuser(int) -> b
+    int getControl() -> v
+    void putControl(int) -> c
+    java.lang.String getUpdateText() -> w
+    java.lang.String getUpdateUrl() -> x
+    java.lang.String getString(java.lang.String,java.lang.String) -> a
+    int getInt(java.lang.String,int) -> a
+    void putString(java.lang.String,java.lang.String) -> b
+    void putInt(java.lang.String,int) -> b
+    boolean isEclairOrLater() -> y
+    boolean isGingerbreadOrLater() -> z
+    void putNewVersionMsg(java.lang.String) -> k
+    java.lang.String getNewVersionMsg() -> A
+    void putNewVersionUrl(java.lang.String) -> l
+    java.lang.String getNewVersionUrl() -> B
+    boolean checkNeedShowNewVersionHint() -> C
+    void markNeedNotShowNewVersionHint() -> D
+    java.lang.String getVersion() -> E
+    java.lang.String getPostUrl() -> F
+    void markForceUpdate(boolean) -> a
+    boolean isForceUpdateMarked() -> G
+com.sqt001.ipcall.application.IpcallApplication -> com.sqt001.ipcall.application.IpcallApplication:
+    void onCreate() -> onCreate
+    void onTerminate() -> onTerminate
+com.sqt001.ipcall.contact.Account -> com.sqt001.ipcall.b.e:
+    boolean isImsiActive() -> a
+    boolean isGuidActive() -> b
+    boolean isActive() -> c
+    boolean activeAccountIfNeed(android.content.Context) -> a
+    void queryReActiveAccount(android.content.Context) -> b
+    void activeAccount(android.content.Context) -> c
+com.sqt001.ipcall.contact.Account$1 -> com.sqt001.ipcall.b.j:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.contact.Account$2 -> com.sqt001.ipcall.b.i:
+    android.content.Context val$context -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.contact.ContactContentUri -> com.sqt001.ipcall.b.k:
+    android.net.Uri getUri() -> b
+    android.net.Uri onGetUri() -> a
+com.sqt001.ipcall.contact.ContactContentUriNew -> com.sqt001.ipcall.b.f:
+    android.net.Uri onGetUri() -> a
+com.sqt001.ipcall.contact.ContactContentUriOld -> com.sqt001.ipcall.b.o:
+    android.net.Uri onGetUri() -> a
+com.sqt001.ipcall.contact.ContactsCursor -> com.sqt001.ipcall.b.p:
+    android.content.Context context -> a
+    android.database.Cursor getContacts() -> b
+    android.database.Cursor onGetContacts() -> a
+    android.net.Uri getContactContentUri() -> c
+com.sqt001.ipcall.contact.ContactsCursorNew -> com.sqt001.ipcall.b.h:
+    android.database.Cursor onGetContacts() -> a
+com.sqt001.ipcall.contact.ContactsCursorOld -> com.sqt001.ipcall.b.q:
+    android.database.Cursor onGetContacts() -> a
+com.sqt001.ipcall.contact.NameColumn -> com.sqt001.ipcall.b.s:
+    java.lang.String[] getColumn() -> b
+    java.lang.String[] onGetNameColumn() -> a
+com.sqt001.ipcall.contact.NameColumnNew -> com.sqt001.ipcall.b.b:
+    java.lang.String[] onGetNameColumn() -> a
+com.sqt001.ipcall.contact.NameColumnOld -> com.sqt001.ipcall.b.r:
+    java.lang.String[] onGetNameColumn() -> a
+com.sqt001.ipcall.contact.NameLookup -> com.sqt001.ipcall.b.d:
+    java.lang.String onGetName(android.content.Context,java.lang.String) -> a
+com.sqt001.ipcall.contact.NameLookupNew -> com.sqt001.ipcall.b.n:
+    java.lang.String onGetName(android.content.Context,java.lang.String) -> a
+com.sqt001.ipcall.contact.NameLookupOld -> com.sqt001.ipcall.b.a:
+    java.lang.String onGetName(android.content.Context,java.lang.String) -> a
+com.sqt001.ipcall.contact.NameQueryer -> com.sqt001.ipcall.b.m:
+    android.database.Cursor cursor -> a
+    com.sqt001.ipcall.contact.NameQueryer create(android.database.Cursor) -> a
+    java.lang.String[] query() -> b
+    android.database.Cursor getCursor() -> c
+    java.lang.String[] onQuery() -> a
+com.sqt001.ipcall.contact.NameQueryerNew -> com.sqt001.ipcall.b.g:
+    java.lang.String[] onQuery() -> a
+com.sqt001.ipcall.contact.NameQueryerOld -> com.sqt001.ipcall.b.u:
+    java.lang.String[] onQuery() -> a
+com.sqt001.ipcall.contact.NumberQueryer -> com.sqt001.ipcall.b.l:
+    long contactId -> a
+    java.util.ArrayList numberAry -> d
+    android.database.Cursor cursor -> b
+    android.content.Context context -> c
+    com.sqt001.ipcall.contact.NumberQueryer create(android.database.Cursor,android.content.Context) -> a
+    java.lang.String[] query() -> c
+    long onQueryContactId() -> a
+    void onQuery() -> b
+    void add(java.lang.String) -> a
+com.sqt001.ipcall.contact.NumberQueryerNew -> com.sqt001.ipcall.b.t:
+    long onQueryContactId() -> a
+    void onQuery() -> b
+com.sqt001.ipcall.contact.NumberQueryerOld -> com.sqt001.ipcall.b.c:
+    long onQueryContactId() -> a
+    void onQuery() -> b
+    java.lang.String query(int) -> a
+com.sqt001.ipcall.login.SendSms -> com.sqt001.ipcall.d.a:
+    android.content.Context mCtx -> a
+    void sendSms(java.lang.String) -> a
+com.sqt001.ipcall.provider.BalanceRequest -> com.sqt001.ipcall.c.ar:
+    android.content.Context mCtx -> a
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+    void parseSoftwareList(org.xmlpull.v1.XmlPullParser) -> b
+com.sqt001.ipcall.provider.BalanceTask -> com.sqt001.ipcall.c.e:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.BalanceTask$BalanceTaskListener mListener -> b
+    android.app.ProgressDialog mProgressDlg -> c
+    android.app.Activity mActivity -> d
+    com.sqt001.ipcall.provider.DownloadTask mDownloadTask -> e
+    com.sqt001.ipcall.provider.BalanceTask execute(com.sqt001.ipcall.provider.BalanceTask$BalanceTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+    com.sqt001.ipcall.provider.BalanceTask$BalanceTaskListener access$3(com.sqt001.ipcall.provider.BalanceTask) -> a
+    void access$4(com.sqt001.ipcall.provider.BalanceTask,java.lang.String) -> a
+    android.app.Activity access$5(com.sqt001.ipcall.provider.BalanceTask) -> b
+com.sqt001.ipcall.provider.BalanceTask$1 -> com.sqt001.ipcall.c.an:
+    com.sqt001.ipcall.provider.BalanceTask this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.sqt001.ipcall.provider.BalanceTask$2 -> com.sqt001.ipcall.c.am:
+    com.sqt001.ipcall.provider.BalanceTask this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.BalanceTask$3 -> com.sqt001.ipcall.c.al:
+    com.sqt001.ipcall.provider.BalanceTask this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.BalanceTask$BalanceTaskListener -> com.sqt001.ipcall.c.ah:
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.provider.BaseRequest -> com.sqt001.ipcall.c.au:
+    int mResultCode -> a
+    java.lang.String mReason -> b
+    com.sqt001.ipcall.provider.BaseRequest$RequestListener mListener -> c
+    android.content.Context mContext -> d
+    boolean post(com.sqt001.ipcall.provider.BaseRequest$RequestListener) -> a
+    java.lang.String createRequest() -> c
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void createSoftwareList(org.xmlpull.v1.XmlSerializer) -> b
+    void parseResponse(java.lang.String) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+    int getResuleCode() -> a
+    java.lang.String getReason() -> b
+com.sqt001.ipcall.provider.BaseRequest$RequestListener -> com.sqt001.ipcall.c.ae:
+com.sqt001.ipcall.provider.BindTask -> com.sqt001.ipcall.c.r:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.BindTask$BindTaskListener mListener -> b
+    android.content.Context mCtx -> c
+    android.app.ProgressDialog mProgressDlg -> d
+    com.sqt001.ipcall.provider.BindTask execute(com.sqt001.ipcall.provider.BindTask$BindTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.BindTask$BindTaskListener -> com.sqt001.ipcall.c.ap:
+    void onBindFinish$2598ce09(boolean) -> a
+com.sqt001.ipcall.provider.CallLogDbAdapter -> com.sqt001.ipcall.c.aj:
+    com.sqt001.ipcall.provider.CallLogDbAdapter$DatabaseHelper mDbHelper -> a
+    android.database.sqlite.SQLiteDatabase mDb -> b
+    android.content.Context mCtx -> c
+    com.sqt001.ipcall.provider.CallLogDbAdapter open() -> a
+    void close() -> b
+    long createlog(com.sqt001.ipcall.provider.CallLogEntry) -> a
+    boolean deletelog(long) -> a
+    boolean deleteAllLogs() -> c
+    android.database.Cursor fetchAlllogs() -> d
+com.sqt001.ipcall.provider.CallLogDbAdapter$DatabaseHelper -> com.sqt001.ipcall.c.bd:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.sqt001.ipcall.provider.CallLogDbHelper -> com.sqt001.ipcall.c.ba:
+    com.sqt001.ipcall.provider.CallLogDbAdapter mCallLog -> a
+    void initialize(android.content.Context) -> a
+    void terminate() -> a
+    com.sqt001.ipcall.provider.CallLogDbAdapter getDb() -> b
+com.sqt001.ipcall.provider.CallLogEntry -> com.sqt001.ipcall.c.bv:
+    java.lang.String mName -> a
+    java.lang.String mNumber -> b
+    java.lang.String mTime -> c
+    java.lang.String getName() -> a
+    java.lang.String getNumber() -> b
+    java.lang.String getTime() -> c
+com.sqt001.ipcall.provider.CallRequest -> com.sqt001.ipcall.c.aq:
+    java.lang.String mCalledNumber -> a
+    java.lang.String mCallerNumber -> b
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.CallTask -> com.sqt001.ipcall.c.bo:
+    android.content.Context mCtx -> a
+    com.sqt001.ipcall.provider.CallRequest mCallRequest -> b
+    com.sqt001.ipcall.provider.CallTask$CallTaskListener mListener -> c
+    com.sqt001.ipcall.provider.ExceptionResultHandler mResultHandler -> d
+    java.lang.String mCalledNumber -> e
+    java.lang.String mCallerNumber -> f
+    com.sqt001.ipcall.provider.CallTask execute(java.lang.String,java.lang.String,com.sqt001.ipcall.provider.CallTask$CallTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+    com.sqt001.ipcall.provider.CallTask$CallTaskListener access$3(com.sqt001.ipcall.provider.CallTask) -> a
+com.sqt001.ipcall.provider.CallTask$1 -> com.sqt001.ipcall.c.bl:
+    com.sqt001.ipcall.provider.CallTask this$0 -> a
+    void afterInputMyNum(boolean) -> a
+    void handleNetWorkFail() -> a
+    void afterAccountException$1385ff() -> b
+    void handleOtherException() -> c
+com.sqt001.ipcall.provider.CallTask$CallTaskListener -> com.sqt001.ipcall.c.ad:
+    void onGetCallSuc() -> a
+    void onExceptionResult() -> b
+    void onInputMyNum() -> c
+    void onCallTaskFail() -> d
+com.sqt001.ipcall.provider.CallerNumberSetter -> com.sqt001.ipcall.c.u:
+    com.sqt001.ipcall.provider.CallerNumberSetter$Listener listener -> a
+    com.sqt001.ipcall.activity.TwelveKeyDialer mTwelveKeyDialer -> b
+    void show(android.content.Context,com.sqt001.ipcall.provider.CallerNumberSetter$Listener) -> a
+    com.sqt001.ipcall.activity.TwelveKeyDialer access$0(com.sqt001.ipcall.provider.CallerNumberSetter) -> a
+    com.sqt001.ipcall.provider.CallerNumberSetter$Listener access$1(com.sqt001.ipcall.provider.CallerNumberSetter) -> b
+com.sqt001.ipcall.provider.CallerNumberSetter$1 -> com.sqt001.ipcall.c.n:
+    com.sqt001.ipcall.provider.CallerNumberSetter this$0 -> a
+    android.widget.EditText val$editor -> b
+    android.content.Context val$context -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.CallerNumberSetter$2 -> com.sqt001.ipcall.c.m:
+    com.sqt001.ipcall.provider.CallerNumberSetter this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.CallerNumberSetter$Listener -> com.sqt001.ipcall.c.o:
+    void onOk(java.lang.String) -> a
+    void onCancel() -> a
+    void onInputError() -> b
+com.sqt001.ipcall.provider.CallerNumberSetter$NullListener -> com.sqt001.ipcall.c.bj:
+    void onOk(java.lang.String) -> a
+    void onCancel() -> a
+    void onInputError() -> b
+com.sqt001.ipcall.provider.ChargeRequest -> com.sqt001.ipcall.c.at:
+    java.lang.String mSerialNumber -> a
+    java.lang.String mPwdNumber -> b
+    java.lang.String mPhoneNumber -> c
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.ChargeTask -> com.sqt001.ipcall.c.t:
+    android.content.Context mCtx -> a
+    com.sqt001.ipcall.provider.ChargeRequest mChargeRequest -> b
+    com.sqt001.ipcall.provider.ChargeTask$CallTaskListener mListener -> c
+    android.app.ProgressDialog mProgressDlg -> d
+    com.sqt001.ipcall.provider.ExceptionResultHandler mResultHandler -> e
+    java.lang.String mSerialNumber -> f
+    java.lang.String mPwdNumber -> g
+    java.lang.String mPhoneNumber -> h
+    com.sqt001.ipcall.provider.ChargeTask execute(java.lang.String,java.lang.String,java.lang.String,com.sqt001.ipcall.provider.ChargeTask$CallTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+    com.sqt001.ipcall.provider.ChargeTask$CallTaskListener access$3(com.sqt001.ipcall.provider.ChargeTask) -> a
+com.sqt001.ipcall.provider.ChargeTask$1 -> com.sqt001.ipcall.c.bu:
+    com.sqt001.ipcall.provider.ChargeTask this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.sqt001.ipcall.provider.ChargeTask$2 -> com.sqt001.ipcall.c.bt:
+    com.sqt001.ipcall.provider.ChargeTask this$0 -> a
+    void afterInputMyNum(boolean) -> a
+    void handleNetWorkFail() -> a
+    void afterAccountException$1385ff() -> b
+    void handleOtherException() -> c
+com.sqt001.ipcall.provider.ChargeTask$CallTaskListener -> com.sqt001.ipcall.c.q:
+    void onCancelCharge() -> a
+    void onInputMyNum() -> b
+com.sqt001.ipcall.provider.DownloadTask -> com.sqt001.ipcall.c.ab:
+    android.content.Context context -> b
+    android.app.ProgressDialog pd -> c
+    boolean please_abort -> a
+    java.lang.String url -> d
+    boolean success -> e
+    java.lang.String reason -> f
+    void onPreExecute() -> a
+    void deleteFile(java.lang.String) -> a
+    java.lang.Void doInBackground$10299ca() -> i
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.DownloadTask$1 -> com.sqt001.ipcall.c.l:
+    com.sqt001.ipcall.provider.DownloadTask this$0 -> a
+    void onDismiss(android.content.DialogInterface) -> onDismiss
+com.sqt001.ipcall.provider.DownloadTask$2 -> com.sqt001.ipcall.c.j:
+    com.sqt001.ipcall.provider.DownloadTask this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.sqt001.ipcall.provider.ExceptionResultHandler -> com.sqt001.ipcall.c.av:
+    android.content.Context mCtx -> a
+    com.sqt001.ipcall.provider.ExceptionResultHandler$ExceptionResultHandlerListener mListener -> b
+    void handle(int,java.lang.String,com.sqt001.ipcall.provider.ExceptionResultHandler$ExceptionResultHandlerListener) -> a
+    android.content.Context access$0(com.sqt001.ipcall.provider.ExceptionResultHandler) -> a
+    com.sqt001.ipcall.provider.ExceptionResultHandler$ExceptionResultHandlerListener access$1(com.sqt001.ipcall.provider.ExceptionResultHandler) -> b
+com.sqt001.ipcall.provider.ExceptionResultHandler$AccountExceptionHandler -> com.sqt001.ipcall.c.b:
+    com.sqt001.ipcall.provider.ExceptionResultHandler this$0 -> a
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$AccountExceptionHandler$1 -> com.sqt001.ipcall.c.bg:
+    com.sqt001.ipcall.provider.ExceptionResultHandler$AccountExceptionHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.ExceptionResultHandler$AccountExceptionHandler$2 -> com.sqt001.ipcall.c.bf:
+    com.sqt001.ipcall.provider.ExceptionResultHandler$AccountExceptionHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.ExceptionResultHandler$DefaultExceptionResultHandlerListener -> com.sqt001.ipcall.c.g:
+    void afterInputMyNum(boolean) -> a
+    void handleNetWorkFail() -> a
+    void afterAccountException$1385ff() -> b
+    void handleOtherException() -> c
+com.sqt001.ipcall.provider.ExceptionResultHandler$ExceptionResultHandlerListener -> com.sqt001.ipcall.c.y:
+    void afterInputMyNum(boolean) -> a
+    void handleNetWorkFail() -> a
+    void afterAccountException$1385ff() -> b
+    void handleOtherException() -> c
+com.sqt001.ipcall.provider.ExceptionResultHandler$Handler -> com.sqt001.ipcall.c.be:
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$InputMyNumHandler -> com.sqt001.ipcall.c.a:
+    com.sqt001.ipcall.provider.ExceptionResultHandler this$0 -> a
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$InputMyNumHandler$1 -> com.sqt001.ipcall.c.af:
+    com.sqt001.ipcall.provider.ExceptionResultHandler$InputMyNumHandler this$1 -> a
+    void onOk(java.lang.String) -> a
+    void onInputError() -> b
+    void onCancel() -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$NetworkFailHandler -> com.sqt001.ipcall.c.w:
+    com.sqt001.ipcall.provider.ExceptionResultHandler this$0 -> a
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$NetworkFailHandler$1 -> com.sqt001.ipcall.c.ax:
+    com.sqt001.ipcall.provider.ExceptionResultHandler$NetworkFailHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.ExceptionResultHandler$NullHandler -> com.sqt001.ipcall.c.as:
+    com.sqt001.ipcall.provider.ExceptionResultHandler this$0 -> a
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$ShowMessageHandler -> com.sqt001.ipcall.c.ay:
+    com.sqt001.ipcall.provider.ExceptionResultHandler this$0 -> a
+    boolean handle(java.lang.String) -> a
+com.sqt001.ipcall.provider.ExceptionResultHandler$ShowMessageHandler$1 -> com.sqt001.ipcall.c.bw:
+    com.sqt001.ipcall.provider.ExceptionResultHandler$ShowMessageHandler this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.GetPasswordRequest -> com.sqt001.ipcall.c.bm:
+    java.lang.String mCaller -> a
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.GetPasswordTask -> com.sqt001.ipcall.c.bc:
+    com.sqt001.ipcall.provider.GetPasswordRequest mGetPasswordRequest -> a
+    com.sqt001.ipcall.provider.GetPasswordTask$GetPasswordListener mListener -> b
+    android.content.Context mCtx -> c
+    java.lang.String mNumber -> d
+    android.app.ProgressDialog mProgressDlg -> e
+    com.sqt001.ipcall.provider.GetPasswordTask execute(java.lang.String,com.sqt001.ipcall.provider.GetPasswordTask$GetPasswordListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.GetPasswordTask$GetPasswordListener -> com.sqt001.ipcall.c.bs:
+    void onGetPasswordFinish$2598ce09(boolean) -> a
+com.sqt001.ipcall.provider.GetSmsRequest -> com.sqt001.ipcall.c.aw:
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.GetSmsTask -> com.sqt001.ipcall.c.ao:
+    android.content.Context mCtx -> a
+    com.sqt001.ipcall.provider.GetSmsRequest mGetSmsRequest -> b
+    com.sqt001.ipcall.provider.GetSmsTask$GetSmsTaskListener mListener -> c
+    com.sqt001.ipcall.provider.GetSmsTask execute(com.sqt001.ipcall.provider.GetSmsTask$GetSmsTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.GetSmsTask$GetSmsTaskListener -> com.sqt001.ipcall.c.z:
+    void onGetSmsTaskFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.provider.IpCallHelper -> com.sqt001.ipcall.c.bh:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.sqt001.ipcall.provider.LoginRequest -> com.sqt001.ipcall.c.v:
+    java.lang.String mLoginAccount -> a
+    java.lang.String mLoginPassword -> b
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.LoginTask -> com.sqt001.ipcall.c.az:
+    com.sqt001.ipcall.provider.LoginRequest mLoginRequest -> a
+    com.sqt001.ipcall.provider.LoginTask$LoginTaskListener mListener -> b
+    android.content.Context mCtx -> c
+    java.lang.String mAccount -> d
+    java.lang.String mPassword -> e
+    android.app.ProgressDialog mProgressDlg -> f
+    com.sqt001.ipcall.provider.LoginTask execute(java.lang.String,java.lang.String,com.sqt001.ipcall.provider.LoginTask$LoginTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.LoginTask$LoginTaskListener -> com.sqt001.ipcall.c.c:
+    void onLoginFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.provider.ModifyRequest -> com.sqt001.ipcall.c.x:
+    java.lang.String mOldPassword -> a
+    java.lang.String mNewPassword -> b
+    void onCreateRequest(org.xmlpull.v1.XmlSerializer) -> a
+    void onParseResponse$79518528(org.xmlpull.v1.XmlPullParser) -> a
+com.sqt001.ipcall.provider.ModifyTask -> com.sqt001.ipcall.c.bn:
+    com.sqt001.ipcall.provider.ModifyRequest mModifyRequest -> a
+    com.sqt001.ipcall.provider.ModifyTask$ModifyListener mListener -> b
+    android.content.Context mCtx -> c
+    java.lang.String mOldPassword -> d
+    java.lang.String mNewPassword -> e
+    android.app.ProgressDialog mProgressDlg -> f
+    com.sqt001.ipcall.provider.ModifyTask execute(java.lang.String,java.lang.String,com.sqt001.ipcall.provider.ModifyTask$ModifyListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.ModifyTask$ModifyListener -> com.sqt001.ipcall.c.ai:
+    void onModifyPwdFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.provider.QueryAccountTask -> com.sqt001.ipcall.c.i:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.QueryAccountTask$QueryAccountTaskListener mListener -> b
+    android.app.ProgressDialog mProgressDlg -> c
+    android.app.Activity mActivity -> d
+    com.sqt001.ipcall.provider.QueryAccountTask execute(com.sqt001.ipcall.provider.QueryAccountTask$QueryAccountTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.QueryAccountTask$QueryAccountTaskListener -> com.sqt001.ipcall.c.aa:
+    void onQueryAccountFinish(java.lang.String,java.lang.String) -> a
+com.sqt001.ipcall.provider.QuickContact -> com.sqt001.ipcall.c.bb:
+    java.lang.String mName -> a
+    java.lang.String mNumber -> b
+    java.lang.String getName() -> a
+    java.lang.String getNumber() -> b
+com.sqt001.ipcall.provider.QuickContactDbAdapter -> com.sqt001.ipcall.c.d:
+    com.sqt001.ipcall.provider.QuickContactDbAdapter$DatabaseHelper mDbHelper -> a
+    android.database.sqlite.SQLiteDatabase mDb -> b
+    android.content.Context mCtx -> c
+    com.sqt001.ipcall.provider.QuickContactDbAdapter open() -> a
+    void close() -> b
+    long createlog(com.sqt001.ipcall.provider.QuickContact) -> a
+    boolean deletelog(long) -> a
+    boolean deleteAllLogs() -> c
+    android.database.Cursor fetchAlllogs() -> d
+com.sqt001.ipcall.provider.QuickContactDbAdapter$DatabaseHelper -> com.sqt001.ipcall.c.p:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.sqt001.ipcall.provider.QuickContactDbHelper -> com.sqt001.ipcall.c.bi:
+    com.sqt001.ipcall.provider.QuickContactDbAdapter mContacts -> a
+    void initialize(android.content.Context) -> a
+    void terminate() -> a
+    com.sqt001.ipcall.provider.QuickContactDbAdapter getDb() -> b
+com.sqt001.ipcall.provider.RegisterTask -> com.sqt001.ipcall.c.ak:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.RegisterTask$RegisterTaskListener mListener -> b
+    android.content.Context mCtx -> c
+    com.sqt001.ipcall.provider.RegisterTask execute(com.sqt001.ipcall.provider.RegisterTask$RegisterTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+com.sqt001.ipcall.provider.RegisterTask$RegisterTaskListener -> com.sqt001.ipcall.c.bk:
+    void onRegisterFinish(boolean,java.lang.String) -> a
+com.sqt001.ipcall.provider.UnImsiRegisterTask -> com.sqt001.ipcall.c.ac:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.UnImsiRegisterTask$BalanceTaskListener mListener -> b
+    android.app.ProgressDialog mProgressDlg -> c
+    android.app.Activity mActivity -> d
+    com.sqt001.ipcall.provider.UnImsiRegisterTask execute(com.sqt001.ipcall.provider.UnImsiRegisterTask$BalanceTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+    com.sqt001.ipcall.provider.UnImsiRegisterTask$BalanceTaskListener access$3(com.sqt001.ipcall.provider.UnImsiRegisterTask) -> a
+    android.app.Activity access$4(com.sqt001.ipcall.provider.UnImsiRegisterTask) -> b
+com.sqt001.ipcall.provider.UnImsiRegisterTask$1 -> com.sqt001.ipcall.c.bq:
+    com.sqt001.ipcall.provider.UnImsiRegisterTask this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.sqt001.ipcall.provider.UnImsiRegisterTask$2 -> com.sqt001.ipcall.c.br:
+    com.sqt001.ipcall.provider.UnImsiRegisterTask this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.UnImsiRegisterTask$BalanceTaskListener -> com.sqt001.ipcall.c.ag:
+    void onCancelGetBalance() -> a
+com.sqt001.ipcall.provider.UpdateTask -> com.sqt001.ipcall.c.bp:
+    com.sqt001.ipcall.provider.BalanceRequest mGetBalanceRequest -> a
+    com.sqt001.ipcall.provider.UpdateTask$UpdateTaskListener mListener -> b
+    android.app.ProgressDialog mProgressDlg -> c
+    com.sqt001.ipcall.provider.ExceptionResultHandler mResultHandler -> d
+    android.content.Context mCtx -> e
+    com.sqt001.ipcall.provider.DownloadTask mDownloadTask -> f
+    com.sqt001.ipcall.provider.UpdateTask execute(com.sqt001.ipcall.provider.UpdateTask$UpdateTaskListener) -> a
+    void onPreExecute() -> a
+    void onCancelled() -> b
+    void onPostExecute$5d527811() -> c
+    java.lang.Object doInBackground$42af7916() -> d
+    void onProgressUpdate(java.lang.Object[]) -> a
+    com.sqt001.ipcall.provider.UpdateTask$UpdateTaskListener access$3(com.sqt001.ipcall.provider.UpdateTask) -> a
+    void access$4(com.sqt001.ipcall.provider.UpdateTask,java.lang.String) -> a
+com.sqt001.ipcall.provider.UpdateTask$1 -> com.sqt001.ipcall.c.f:
+    com.sqt001.ipcall.provider.UpdateTask this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.sqt001.ipcall.provider.UpdateTask$2 -> com.sqt001.ipcall.c.h:
+    com.sqt001.ipcall.provider.UpdateTask this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.sqt001.ipcall.provider.UpdateTask$3 -> com.sqt001.ipcall.c.k:
+    com.sqt001.ipcall.provider.UpdateTask this$0 -> a
+    void afterInputMyNum(boolean) -> a
+    void handleNetWorkFail() -> a
+    void afterAccountException$1385ff() -> b
+    void handleOtherException() -> c
+com.sqt001.ipcall.provider.UpdateTask$UpdateTaskListener -> com.sqt001.ipcall.c.s:
+    void onCancelGetUpdate() -> a
+com.sqt001.ipcall.util.AboutDlg -> com.sqt001.ipcall.a.g:
+    android.content.Context context -> a
+    void show(java.lang.String,java.lang.String) -> a
+    void show(java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener) -> a
+com.sqt001.ipcall.util.AppUtils -> com.sqt001.ipcall.a.o:
+    java.util.ArrayList getInstalledApps(android.content.Context) -> a
+    boolean isAppExist(android.content.Context,java.lang.String) -> a
+com.sqt001.ipcall.util.AppUtils$PInfo -> com.sqt001.ipcall.a.l:
+    java.lang.String appname -> a
+    java.lang.String pname -> b
+    java.lang.String versionName -> c
+    int versionCode -> d
+    java.lang.String getName() -> a
+    void access$0(com.sqt001.ipcall.util.AppUtils$PInfo,java.lang.String) -> a
+    void access$1(com.sqt001.ipcall.util.AppUtils$PInfo,java.lang.String) -> b
+    void access$2(com.sqt001.ipcall.util.AppUtils$PInfo,java.lang.String) -> c
+    void access$3(com.sqt001.ipcall.util.AppUtils$PInfo,int) -> a
+com.sqt001.ipcall.util.Base64 -> com.sqt001.ipcall.a.k:
+    char[] CA -> a
+    int[] IA -> b
+    void init() -> a
+    char[] encodeToChar$1cf21f7a(byte[]) -> a
+    java.lang.String encode(java.lang.String,java.lang.String) -> a
+    java.lang.String encode(com.sqt001.ipcall.util.Base64,java.lang.String) -> a
+    byte[] decodeFast(java.lang.String) -> a
+com.sqt001.ipcall.util.CallMonitor -> com.sqt001.ipcall.a.ad:
+    android.content.Context mCtx -> a
+    com.sqt001.ipcall.util.CallMonitor$CallMonitorListener mListener -> b
+    com.sqt001.ipcall.util.CallMonitor$CallListener mCallListener -> c
+    com.sqt001.ipcall.util.CallMonitor$CallAnswerer mCallAnswerer -> d
+    java.util.Timer mTimer -> e
+    android.os.Handler mHandler -> f
+    int ANSWERCOUNTMAX -> g
+    int mAnswerCount -> h
+    void listenAndAnswer(com.sqt001.ipcall.util.CallMonitor$CallMonitorListener) -> a
+    void cancel() -> a
+    void unRegisterCallListener() -> b
+    void createTimerTask(int,int) -> a
+    void stopTimer() -> c
+    android.content.Context access$0(com.sqt001.ipcall.util.CallMonitor) -> a
+    void access$1(com.sqt001.ipcall.util.CallMonitor) -> b
+    void access$2(com.sqt001.ipcall.util.CallMonitor) -> c
+    void access$3(com.sqt001.ipcall.util.CallMonitor) -> d
+    boolean access$4(com.sqt001.ipcall.util.CallMonitor) -> e
+    void access$5(com.sqt001.ipcall.util.CallMonitor) -> f
+    void access$6(com.sqt001.ipcall.util.CallMonitor) -> g
+    void access$7(com.sqt001.ipcall.util.CallMonitor) -> h
+    android.os.Handler access$8(com.sqt001.ipcall.util.CallMonitor) -> i
+com.sqt001.ipcall.util.CallMonitor$1 -> com.sqt001.ipcall.a.h:
+    com.sqt001.ipcall.util.CallMonitor this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.sqt001.ipcall.util.CallMonitor$2 -> com.sqt001.ipcall.a.i:
+    com.sqt001.ipcall.util.CallMonitor this$0 -> a
+    int val$what -> b
+    void run() -> run
+com.sqt001.ipcall.util.CallMonitor$CallAnswerer -> com.sqt001.ipcall.a.s:
+    com.sqt001.ipcall.util.CallMonitor this$0 -> a
+    void answer() -> a
+com.sqt001.ipcall.util.CallMonitor$CallListener -> com.sqt001.ipcall.a.n:
+    com.sqt001.ipcall.util.CallMonitor this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.sqt001.ipcall.util.CallMonitor$CallMonitorListener -> com.sqt001.ipcall.a.p:
+    void onCallAnswered() -> c
+    void onCallRingWithoutAnswer() -> b
+    void onCallEnd() -> d
+    void onListenTimeOvered() -> a
+com.sqt001.ipcall.util.DBUtil -> com.sqt001.ipcall.a.ac:
+    com.sqt001.ipcall.provider.IpCallHelper mDbHelper -> a
+    java.util.ArrayList readAll() -> a
+    boolean delAll() -> b
+    boolean insertSubject(com.sqt001.ipcall.util.SoftObj) -> a
+com.sqt001.ipcall.util.FileUtils -> com.sqt001.ipcall.a.w:
+    boolean isSDCardReady() -> a
+    java.lang.String readFileToString$398f946a(java.io.File) -> a
+com.sqt001.ipcall.util.HttpManager -> com.sqt001.ipcall.a.t:
+    org.apache.http.impl.client.DefaultHttpClient sClient -> a
+    boolean mApplyApn -> b
+    android.net.Uri PREFERRED_APN_URI -> c
+    boolean checkNet(android.content.Context) -> a
+    java.lang.String postAndGetResponse(java.lang.String) -> a
+    java.lang.String parseResponse(org.apache.http.HttpResponse) -> a
+    java.lang.String getSystemProxy(android.content.Context) -> b
+    org.apache.http.HttpResponse access$0(org.apache.http.client.methods.HttpPost) -> a
+    boolean access$1() -> a
+    void access$2(boolean) -> a
+com.sqt001.ipcall.util.HttpManager$Coder -> com.sqt001.ipcall.a.d:
+    java.lang.String decode(java.lang.String) -> a
+com.sqt001.ipcall.util.HttpManager$Poster -> com.sqt001.ipcall.a.aa:
+    org.apache.http.client.methods.HttpPost mPost -> a
+    java.util.ArrayList mPairs -> b
+    org.apache.http.HttpResponse post() -> a
+com.sqt001.ipcall.util.IOUtils -> com.sqt001.ipcall.a.q:
+    char DIR_SEPARATOR -> a
+    java.lang.String LINE_SEPARATOR -> b
+    void closeQuietly(java.io.InputStream) -> a
+    void closeQuietly(java.io.OutputStream) -> a
+    java.lang.String toString(java.io.InputStream) -> b
+    java.lang.String toString$4e276518(java.io.InputStream) -> c
+    java.lang.String toUnixString(java.lang.String) -> a
+    void write$1cc4d63b(java.lang.String,java.io.OutputStream) -> a
+    void copy(java.io.InputStream,java.io.Writer) -> a
+    int copy(java.io.Reader,java.io.Writer) -> a
+com.sqt001.ipcall.util.LogUtil -> com.sqt001.ipcall.a.m:
+    java.lang.String r() -> a
+com.sqt001.ipcall.util.NetworkFailException -> com.sqt001.ipcall.a.y:
+    java.lang.String toString() -> toString
+com.sqt001.ipcall.util.ResourceUtils -> com.sqt001.ipcall.a.ae:
+    android.content.Context context -> a
+    java.lang.String getStringFromRawResource(int) -> a
+com.sqt001.ipcall.util.SmsSender -> com.sqt001.ipcall.a.j:
+    android.content.Context ctx -> a
+    void sendSMS(java.lang.String,java.lang.String,android.content.BroadcastReceiver,android.content.BroadcastReceiver) -> a
+com.sqt001.ipcall.util.SoftObj -> com.sqt001.ipcall.a.v:
+    java.lang.String id -> a
+    java.lang.String title -> b
+    java.lang.String message -> c
+    java.lang.String url -> d
+    java.lang.String getId() -> a
+    java.lang.String getTitle() -> b
+    java.lang.String getMessage() -> c
+    java.lang.String getUrl() -> d
+com.sqt001.ipcall.util.StrUitl -> com.sqt001.ipcall.a.z:
+    int GB_SP_DIFF -> a
+    int[] secPosValueList -> b
+    char[] firstLetter -> c
+    java.lang.String[] AZ -> d
+    char firstChar(java.lang.String) -> a
+    char chinaConvert(java.lang.String) -> b
+com.sqt001.ipcall.util.Tuple -> com.sqt001.ipcall.a.e:
+    java.lang.Object[] elements -> a
+    java.lang.Object get(int) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.sqt001.ipcall.util.UserTask -> com.sqt001.ipcall.a.x:
+    java.util.concurrent.BlockingQueue sWorkQueue -> a
+    java.util.concurrent.ThreadFactory sThreadFactory -> b
+    java.util.concurrent.ThreadPoolExecutor sExecutor -> c
+    com.sqt001.ipcall.util.UserTask$InternalHandler sHandler -> d
+    com.sqt001.ipcall.util.UserTask$WorkerRunnable mWorker -> e
+    java.util.concurrent.FutureTask mFuture -> f
+    com.sqt001.ipcall.util.UserTask$Status mStatus -> g
+    int[] $SWITCH_TABLE$com$sqt001$ipcall$util$UserTask$Status -> h
+    com.sqt001.ipcall.util.UserTask$Status getStatus() -> e
+    java.lang.Object doInBackground$42af7916() -> d
+    void onPreExecute() -> a
+    void onPostExecute$5d527811() -> c
+    void onProgressUpdate(java.lang.Object[]) -> a
+    void onCancelled() -> b
+    boolean isCancelled() -> f
+    boolean cancel$138603() -> g
+    com.sqt001.ipcall.util.UserTask execute(java.lang.Object[]) -> b
+    void publishProgress(java.lang.Object[]) -> c
+    void access$0$1ad402f1(com.sqt001.ipcall.util.UserTask) -> a
+    com.sqt001.ipcall.util.UserTask$InternalHandler access$1() -> h
+    int[] $SWITCH_TABLE$com$sqt001$ipcall$util$UserTask$Status() -> i
+com.sqt001.ipcall.util.UserTask$1 -> com.sqt001.ipcall.a.b:
+    java.util.concurrent.atomic.AtomicInteger mCount -> a
+    java.lang.Thread newThread(java.lang.Runnable) -> newThread
+com.sqt001.ipcall.util.UserTask$2 -> com.sqt001.ipcall.a.c:
+    com.sqt001.ipcall.util.UserTask this$0 -> b
+    java.lang.Object call() -> call
+com.sqt001.ipcall.util.UserTask$3 -> com.sqt001.ipcall.a.a:
+    com.sqt001.ipcall.util.UserTask this$0 -> a
+    void done() -> done
+com.sqt001.ipcall.util.UserTask$InternalHandler -> com.sqt001.ipcall.a.ab:
+    void handleMessage(android.os.Message) -> handleMessage
+com.sqt001.ipcall.util.UserTask$Status -> com.sqt001.ipcall.a.u:
+    com.sqt001.ipcall.util.UserTask$Status PENDING -> a
+    com.sqt001.ipcall.util.UserTask$Status RUNNING -> b
+    com.sqt001.ipcall.util.UserTask$Status FINISHED -> c
+    com.sqt001.ipcall.util.UserTask$Status[] ENUM$VALUES -> d
+    com.sqt001.ipcall.util.UserTask$Status[] values() -> values
+    com.sqt001.ipcall.util.UserTask$Status valueOf(java.lang.String) -> valueOf
+com.sqt001.ipcall.util.UserTask$UserTaskResult -> com.sqt001.ipcall.a.r:
+    com.sqt001.ipcall.util.UserTask mTask -> a
+    java.lang.Object[] mData -> b
+com.sqt001.ipcall.util.UserTask$WorkerRunnable -> com.sqt001.ipcall.a.f:
+    java.lang.Object[] mParams -> a

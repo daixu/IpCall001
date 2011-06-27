@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/background_account">
+
+	<View android:id="@+id/space" android:layout_width="fill_parent"
+		android:layout_height="5dp" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/user_create"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/space">
+
+		<ImageView android:id="@+id/account_center" android:src="@drawable/ttt"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<View android:id="@+id/space1" android:layout_width="fill_parent"
+		android:layout_height="5dp" android:layout_below="@+id/user_create" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/user_id_field"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/space1">
+
+		<TextView android:id="@+id/user_id" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:textColor="?android:attr/textColorPrimaryInverse"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/userId" android:paddingLeft="80dip" />
+
+		<TextView android:id="@+id/id_field" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:textColor="?android:attr/textColorPrimaryInverse"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" />
+
+	</LinearLayout>
+
+	<View android:id="@+id/space2" android:layout_width="fill_parent"
+		android:layout_height="5dp" android:layout_below="@+id/user_id_field" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/user_phone_field"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/space2">
+
+		<TextView android:id="@+id/phone_number"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textColor="?android:attr/textColorPrimaryInverse"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/bind_mobile_phone" android:paddingLeft="60dip" />
+
+		<TextView android:id="@+id/phone_number_field"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textColor="?android:attr/textColorPrimaryInverse"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" />
+
+	</LinearLayout>
+
+	<View android:id="@+id/space3" android:layout_width="fill_parent"
+		android:layout_height="5dp" android:layout_below="@+id/user_phone_field" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/query_balance_btn"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/space3">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text=" " />
+		<Button android:id="@+id/query_balance" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/getbalance" />
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text=" " />
+	</LinearLayout>
+
+	<View android:id="@+id/space5" android:layout_width="fill_parent"
+		android:layout_height="5dp" android:layout_below="@+id/query_balance_btn" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/recharge_btn"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/space5">
+
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text=" " />
+		<Button android:id="@+id/recharge" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/recharge" />
+		<TextView android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text=" " />
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.sqt001.ipcall" android:versionCode="5"
+	android:versionName="1.8.0">
+	<application android:icon="@drawable/icon" android:name=".application.IpcallApplication"
+		android:label="@string/app_name" android:screenOrientation="portrait">
+		
+		<activity android:name=".activity.WelcomeActivity"
+			android:screenOrientation="portrait" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.CALL_BUTTON" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".activity.TwelveKeyDialer"
+			android:screenOrientation="portrait" android:label="@string/app_name">
+		</activity>
+
+		<activity android:name=".activity.RecentCallsListActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.ContactsListActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.ChargeActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.CallScreenActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.QuickCallsListActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.LogActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.AccountActiveActivity"
+			android:configChanges="orientation|keyboardHidden"
+			android:screenOrientation="portrait" android:theme="@style/TallTitleBarTheme">
+		</activity>
+
+		<activity android:name=".activity.AccountActiveProgress"
+			android:configChanges="orientation|keyboardHidden" android:theme="@style/TallTitleBarTheme"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.DialtactsActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.UnImsiAccountRegisterActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.AccountRegisterActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.ShowProgressActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.FinalPromptActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.AccountCenterActivity"
+			android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".activity.RecommendColumnActivity"
+			android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".activity.ModifyAccountPwdActivity"
+			android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".activity.ForgetPwdActivity"
+			android:screenOrientation="portrait">
+		</activity>
+	
+		<activity android:name=".activity.ManualBindMainActivity"
+			android:screenOrientation="portrait">
+		</activity>
+	</application>
+	
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+</manifest> 

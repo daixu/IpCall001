@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical"
+	android:id="@+id/LinearLayoutloadingfooter" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:id="@+id/calling_title" 
+		android:layout_width="wrap_content"
+		android:text="正在拨号"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+	<ImageView android:id="@+id/Callingmage"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dip" 
+		android:src="@drawable/calling"
+	/>
+
+	<TextView android:id="@+id/calling_name" 
+		android:layout_width="wrap_content"
+		android:layout_marginTop="16dip" 
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium" />		
+
+	<TextView android:id="@+id/calling_text" 
+		android:layout_width="wrap_content"
+		android:layout_marginTop="16dip"
+		android:layout_height="wrap_content"
+		android:textColor="@color/gray"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+	<TextView android:id="@+id/calling_text_second" 
+		android:layout_width="wrap_content"
+		android:layout_marginTop="16dip"
+		android:layout_height="wrap_content"
+		android:textColor="@color/gray"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+	<ProgressBar
+        android:id="@+id/calling_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        style="@style/qZoneListProgressStyle" />
+
+</LinearLayout>

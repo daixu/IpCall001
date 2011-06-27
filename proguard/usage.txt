@@ -1,0 +1,372 @@
+com.sqt001.ipcall.R
+com.sqt001.ipcall.R$anim
+com.sqt001.ipcall.R$attr
+com.sqt001.ipcall.R$color
+com.sqt001.ipcall.R$drawable
+com.sqt001.ipcall.R$id
+com.sqt001.ipcall.R$layout
+com.sqt001.ipcall.R$menu
+com.sqt001.ipcall.R$raw
+com.sqt001.ipcall.R$string
+com.sqt001.ipcall.R$style
+com.sqt001.ipcall.activity.AccountActiveActivity:
+    private static final java.lang.String TAG
+com.sqt001.ipcall.activity.AccountActiveProgress:
+    public static final java.lang.String SMS_BASE64_TABLE
+    private static final java.lang.String SMS_DEST_NUMBER
+    private static final int WAITSMSDURATION
+    private static final int TIME_TO_EXIT_PROGRESS
+    private static final int SMS_SENT_SUC
+    private static final int SMS_SENT_FAIL
+    private static final int SMS_DELIVER_SUC
+    private static final int SMS_DELIVER_FAIL
+    270:270:static void access$8(com.sqt001.ipcall.activity.AccountActiveProgress)
+com.sqt001.ipcall.activity.AccountActiveProgress$3:
+    284:285:public void afterInputMyNum()
+com.sqt001.ipcall.activity.AccountCenterActivity:
+    private static final int DEBUG_MENU_LOG_ITEM_ID
+    342:354:private void download(java.lang.String)
+    341:341:static void access$6(com.sqt001.ipcall.activity.AccountCenterActivity,java.lang.String)
+com.sqt001.ipcall.activity.AccountCenterActivity$1:
+    109:109:static void access$0(com.sqt001.ipcall.activity.AccountCenterActivity$1)
+com.sqt001.ipcall.activity.AccountCenterActivity$1$1:
+    123:124:public void afterInputMyNum()
+com.sqt001.ipcall.activity.AccountCenterActivity$6:
+    336:337:public void onOkGetUpdate(java.lang.String)
+com.sqt001.ipcall.activity.AccountRegisterActivity:
+    public static final int EXIT
+com.sqt001.ipcall.activity.CallScreenActivity$3:
+    212:213:public void onCancelGetCall()
+com.sqt001.ipcall.activity.ChargeActivity:
+    static final int SERIALMINLENGTH
+    static final int PASSWORDMINLENGTH
+    static final java.lang.String OTHERCHARGEURL
+    263:263:static void access$11(com.sqt001.ipcall.activity.ChargeActivity)
+com.sqt001.ipcall.activity.ChargeActivity$6:
+    281:282:public void afterInputMyNum()
+com.sqt001.ipcall.activity.ContactsListActivity:
+    248:259:private void call(java.lang.String,java.lang.String)
+com.sqt001.ipcall.activity.RecentCallsListActivity:
+    211:212:private void handleAddQuickOptionItemClick()
+    316:334:private void addQuick(int)
+com.sqt001.ipcall.activity.RecentCallsListActivityxx:
+    197:198:private void handleAddQuickOptionItemClick()
+    292:308:private void addQuick(int)
+com.sqt001.ipcall.activity.TwelveKeyDialer:
+    private static final int TONE_LENGTH_MS
+    private static final int DIAL_TONE_STREAM_TYPE
+    private static final int TONE_RELATIVE_VOLUME
+    private static final int STOP_TONE
+    private static final int DEBUG_MENU_LOG_ITEM_ID
+    624:624:static void access$10(com.sqt001.ipcall.activity.TwelveKeyDialer)
+com.sqt001.ipcall.activity.TwelveKeyDialer$11:
+    638:639:public void afterInputMyNum()
+com.sqt001.ipcall.activity.TwelveKeyDialer$12:
+    659:660:public void onOkGetUpdate(java.lang.String)
+com.sqt001.ipcall.activity.WelcomeActivity:
+    private static final int WELCOME_VIEW
+    private static final int LOGON_RUN
+    public static final int EXIT
+com.sqt001.ipcall.application.AppPreference:
+    private static final java.lang.String PREFER_NAME
+    private static final java.lang.String MODEL_SDK_KEY
+    private static final java.lang.String MODEL_SDK_DEFAULT
+    public static final int IMSI_MININUM_LENGTH
+    public static final int IMSI_MAXMIUM_LENGTH
+    public static final java.lang.String IMSI_DEFAULT
+    private static final int IMSI_LENGTH
+    private static final java.lang.String IMSI_KEY
+    private static final java.lang.String IMEI_KEY
+    private static final java.lang.String IMEI_DEFAULT
+    private static final java.lang.String MYNUM_KEY
+    private static final java.lang.String MYNUM_DEFAULT
+    private static final java.lang.String PASSWORD_KEY
+    private static final java.lang.String PASSWORD_DEFAULT
+    private static final java.lang.String USERNAME_KEY
+    private static final java.lang.String USERNAME_DEFAULT
+    private static final java.lang.String SCREEN_WIDTH_KEY
+    private static final java.lang.String SCREEN_WIDTH_DEFAULT
+    private static final java.lang.String SCREEN_HEIGHT_KEY
+    private static final java.lang.String SCREEN_HEIGHT_DEFAULT
+    private static final java.lang.String USER_BALANCE_KEY
+    private static final int USER_BALANCE_DEFAULT
+    private static final java.lang.String USER_ID
+    private static final java.lang.String USER_ID_DEFAULT
+    private static final java.lang.String NEW_VERSION_HINT_COUNT
+    private static final int NEW_VERSION_HINT_COUNT_DEFAULT
+    private static final int NEW_VERSION_HINT_COUNT_MAX
+    private static final java.lang.String NEW_VERSION_MSG
+    private static final java.lang.String NEW_VERSION_URL
+    private static final java.lang.String VERSION_CODE_BAK
+    private static final int VERSION_CODE_DEFAULT
+    private static final java.lang.String SOFT_LIST_UPDATE_TIME
+    private static final int SOFT_LIST_UPDATE_TIME_DEFAULT
+    private static final java.lang.String MONEY_SAVE_SECRET
+    private static final java.lang.String MONEY_SAVE_SECRET_DEFAULT
+    private static final java.lang.String ABOUT_INFO_KEY
+    private static final java.lang.String ABOUT_INFO_DEFAULT
+    private static final java.lang.String SERVICE_NUM_KEY
+    private static final java.lang.String SERVICE_NUM_DEFAULT
+    private static final java.lang.String GATEWAY_NUMBER_KEY
+    private static final java.lang.String GATEWAY_NUMBER_DEFAULT
+    private static final java.lang.String ISNEWUSER_KEY
+    private static final int ISNEWUSER_KEY_DEFAULT
+    private static final java.lang.String MESSAGE_KEY
+    private static final java.lang.String MESSAGE_KEY_DEFAULT
+    private static final java.lang.String CONTROL_KEY
+    private static final int CONTROL_KEY_DEFAULT
+    private static final java.lang.String TEXT_KEY
+    private static final java.lang.String TEXT_KEY_DEFAULT
+    private static final java.lang.String URL_KEY
+    private static final java.lang.String URL_KEY_DEFAULT
+    private static final java.lang.String FIRST_BOOT_KEY
+    private static final boolean FIRST_BOOT_DEFAULT
+    private static final java.lang.String FORCE_UPDATE_FLAG_KEY
+    private static final boolean FORCE_UPDATE_DEFAULT_VALUE
+    188:190:private static void resetUserNumAndUserId(android.content.SharedPreferences$Editor)
+    351:351:public static boolean isFirstBoot()
+    479:479:public static java.lang.String getMessage()
+    503:504:public static void putUpdateText(java.lang.String)
+    511:512:public static void putUpdateUrl(java.lang.String)
+    588:588:public static boolean isImsiActive()
+com.sqt001.ipcall.application.BuildConfig:
+    private static final boolean mRelease
+    private static final boolean mDevice
+    private static final boolean mTestNoneImsi
+    private static final boolean mMeizuM9
+    private static final boolean mHtc200
+    private static final java.lang.String APP_VERSION_TEST
+    private static final java.lang.String APP_VERSION_RELEASE
+    private static final java.lang.String API_POST_URL_TEST
+    private static final java.lang.String API_POST_URL_RELEASE
+    private static final java.lang.String APP_CHANNEL_TEST
+    private static final java.lang.String APP_CHANNEL_RELEASE
+    public static final java.lang.String BROADCOSTRECIVER_XML_RESOVLE
+    44:44:public static boolean isMonitor()
+com.sqt001.ipcall.contact.Account:
+    84:86:public static void activeAccountForResult(android.app.Activity,int)
+com.sqt001.ipcall.contact.NameQueryer:
+    protected static final java.lang.String EMPTY_NAME
+com.sqt001.ipcall.contact.NumberQueryer:
+    protected static final java.lang.String BLANK_NUMBER
+com.sqt001.ipcall.login.AccountManager
+com.sqt001.ipcall.login.GetImsi
+com.sqt001.ipcall.login.SendSms:
+    static final java.lang.String SMS_BASE64_TABLE
+    private static final int SLEEP
+com.sqt001.ipcall.provider.BalanceRequest:
+    private static final java.lang.String KCGETBALANCE
+    private static final java.lang.String TAG_TEXT
+    private static final java.lang.String TAG_URL
+    57:59:private void parseNewVersion(org.xmlpull.v1.XmlPullParser)
+    62:71:private void parseMessage(org.xmlpull.v1.XmlPullParser)
+    81:90:private void parseUrl(org.xmlpull.v1.XmlPullParser)
+com.sqt001.ipcall.provider.BalanceTask:
+    74:74:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.BalanceTask$BalanceTaskListener:
+    public abstract void afterInputMyNum()
+com.sqt001.ipcall.provider.BaseRequest:
+    public static final int NORMAL_STATUS
+    public static final int NEED_INPUT_NUM_STATUS
+    public static final int ACCOUNT_EXCEPTION_STATUS
+    public static final int OTHER_ERR_STATUS
+    public static final int UPDATE_UPGRADE
+    public static final int NETWORK_EXCEPTION
+    private static final java.lang.String TAG_RESULT
+    private static final java.lang.String TAG_REASON
+    private static final java.lang.String TAG_ERRCODE
+    private static final java.lang.String TAG_USERID
+    private static final java.lang.String ATT_UID
+    private static final java.lang.String TAG_PREFER
+    private static final java.lang.String TAG_ABOUT
+    353:356:protected void notifyListener(java.lang.String)
+com.sqt001.ipcall.provider.BaseRequest$RequestListener:
+    public abstract void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.BindTask:
+    59:59:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.CallLogDbAdapter:
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_NUMBER
+    public static final java.lang.String KEY_TIME
+    public static final java.lang.String KEY_ROWID
+    private static final java.lang.String TAG
+    private static final java.lang.String DATABASE_CREATE
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String DATABASE_TABLE
+    private static final int DATABASE_VERSION
+    138:145:public android.database.Cursor fetchlog(long)
+    159:164:public boolean updatelog(long,com.sqt001.ipcall.provider.CallLogEntry)
+com.sqt001.ipcall.provider.CallRequest:
+    private static final java.lang.String KCMAKECALL
+com.sqt001.ipcall.provider.CallTask:
+    61:61:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.CallTask$CallTaskListener:
+    public abstract void onCancelGetCall()
+com.sqt001.ipcall.provider.ChargeRequest:
+    private static final java.lang.String KCRECHARGE
+com.sqt001.ipcall.provider.ChargeTask:
+    81:81:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.Constants
+com.sqt001.ipcall.provider.Constants$Call
+com.sqt001.ipcall.provider.Constants$Info
+com.sqt001.ipcall.provider.Constants$Other
+com.sqt001.ipcall.provider.Constants$Xml
+com.sqt001.ipcall.provider.DownloadTask:
+    private static final java.lang.String APK_FILE
+    private static final java.lang.String APK_FILE_PART
+    private static final java.lang.String DOWNLOAD_DIR
+    68:72:public static java.lang.String printSize(int)
+com.sqt001.ipcall.provider.GetPasswordRequest:
+    private static final java.lang.String KCGetPassword
+com.sqt001.ipcall.provider.GetPasswordTask:
+    57:57:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.GetSmsRequest:
+    private static final java.lang.String KCGetSMS
+com.sqt001.ipcall.provider.GetSmsTask:
+    44:44:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.IpCallHelper:
+    private static final java.lang.String DBNAME
+    private static final int DB_VERSION
+    public static final java.lang.String SOFT_TABLE
+    public static final java.lang.String SOFT_ID
+    public static final java.lang.String SOFT_TITLE
+    public static final java.lang.String SOFT_MESSAGE
+    public static final java.lang.String SOFT_URL
+com.sqt001.ipcall.provider.LoginRequest:
+    private static final java.lang.String KCLogin
+com.sqt001.ipcall.provider.LoginTask:
+    59:59:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.ModifyRequest:
+    private static final java.lang.String KCModify
+com.sqt001.ipcall.provider.ModifyTask:
+    59:59:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.QueryAccountTask:
+    59:59:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.QuickContactDbAdapter:
+    public static final java.lang.String KEY_NAME
+    public static final java.lang.String KEY_NUMBER
+    public static final java.lang.String KEY_ROWID
+    private static final java.lang.String TAG
+    private static final java.lang.String DATABASE_CREATE
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String DATABASE_TABLE
+    private static final int DATABASE_VERSION
+    136:143:public android.database.Cursor fetchlog(long)
+    157:161:public boolean updatelog(long,com.sqt001.ipcall.provider.QuickContact)
+com.sqt001.ipcall.provider.RegisterTask:
+    53:53:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.UnImsiRegisterTask:
+    73:73:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.UnImsiRegisterTask$BalanceTaskListener:
+    public abstract void afterInputMyNum()
+com.sqt001.ipcall.provider.UpdateTask:
+    74:74:public void onRequestProcessInfo(java.lang.String)
+com.sqt001.ipcall.provider.UpdateTask$UpdateTaskListener:
+    public abstract void onOkGetUpdate(java.lang.String)
+com.sqt001.ipcall.util.AppUtils:
+    private static final java.lang.String USER_APPS_DIR
+    private static final java.lang.String APP_EXT
+com.sqt001.ipcall.util.Base64:
+    107:155:public final byte[] decode(char[])
+    175:231:public final byte[] decodeFast(char[])
+    253:298:public final byte[] encodeToByte(byte[],boolean)
+    314:362:public final byte[] decode(byte[])
+    382:438:public final byte[] decodeFast(byte[])
+    461:461:public final java.lang.String encodeToString(byte[],boolean)
+    508:557:public final byte[] decode(java.lang.String,boolean)
+    643:644:public static java.lang.String decode(java.lang.String,java.lang.String)
+com.sqt001.ipcall.util.Base64Sms
+com.sqt001.ipcall.util.Base64Test
+com.sqt001.ipcall.util.CallMonitor:
+    private static final java.lang.String CALLINTENT
+    private static final int LISTENDURATION
+    private static final int TIME_TO_STOP_LISTEN_MESSAGE
+    private static final int ANSWERDURATION
+    private static final int TIME_TO_ANSWER_INCOMING_CALL
+com.sqt001.ipcall.util.FileUtils:
+    138:144:public static byte[] readFileToByteArray(java.io.File)
+com.sqt001.ipcall.util.HttpManager:
+    306:331:private static void chooseStaticProxy()
+com.sqt001.ipcall.util.HttpManager$Poster:
+    private static final java.lang.String API_POST_NAME
+com.sqt001.ipcall.util.HttpManagerTest
+com.sqt001.ipcall.util.IOUtils:
+    public static final char DIR_SEPARATOR_UNIX
+    public static final char DIR_SEPARATOR_WINDOWS
+    public static final java.lang.String LINE_SEPARATOR_UNIX
+    public static final java.lang.String LINE_SEPARATOR_WINDOWS
+    private static final int DEFAULT_BUFFER_SIZE
+    114:120:public static void closeQuietly(java.io.Reader)
+    132:138:public static void closeQuietly(java.io.Writer)
+    190:192:public static byte[] toByteArray(java.io.InputStream)
+    208:210:public static byte[] toByteArray(java.io.Reader)
+    232:234:public static byte[] toByteArray(java.io.Reader,java.lang.String)
+    250:250:public static byte[] toByteArray(java.lang.String)
+    269:271:public static char[] toCharArray(java.io.InputStream)
+    293:295:public static char[] toCharArray(java.io.InputStream,java.lang.String)
+    311:313:public static char[] toCharArray(java.io.Reader)
+    371:373:public static java.lang.String toString(java.io.Reader)
+    387:387:public static java.lang.String toString(byte[])
+    406:409:public static java.lang.String toString(byte[],java.lang.String)
+    438:439:public static java.util.List readLines(java.io.InputStream)
+    460:464:public static java.util.List readLines(java.io.InputStream,java.lang.String)
+    482:489:public static java.util.List readLines(java.io.Reader)
+    522:522:public static com.sqt001.ipcall.util.LineIterator lineIterator(java.io.Reader)
+    557:563:public static com.sqt001.ipcall.util.LineIterator lineIterator(java.io.InputStream,java.lang.String)
+    576:577:public static java.io.InputStream toInputStream(java.lang.String)
+    594:595:public static java.io.InputStream toInputStream(java.lang.String,java.lang.String)
+    612:615:public static void write(byte[],java.io.OutputStream)
+    631:634:public static void write(byte[],java.io.Writer)
+    655:662:public static void write(byte[],java.io.Writer,java.lang.String)
+    678:681:public static void write(char[],java.io.Writer)
+    699:702:public static void write(char[],java.io.OutputStream)
+    724:731:public static void write(char[],java.io.OutputStream,java.lang.String)
+    745:748:public static void write(java.lang.String,java.io.Writer)
+    810:813:public static void write(java.lang.StringBuffer,java.io.Writer)
+    830:833:public static void write(java.lang.StringBuffer,java.io.OutputStream)
+    853:860:public static void write(java.lang.StringBuffer,java.io.OutputStream,java.lang.String)
+    878:891:public static void writeLines(java.util.Collection,java.lang.String,java.io.OutputStream)
+    911:928:public static void writeLines(java.util.Collection,java.lang.String,java.io.OutputStream,java.lang.String)
+    943:956:public static void writeLines(java.util.Collection,java.lang.String,java.io.Writer)
+    981:985:public static int copy(java.io.InputStream,java.io.OutputStream)
+    1004:1011:public static long copyLarge(java.io.InputStream,java.io.OutputStream)
+    1138:1143:public static void copy(java.io.Reader,java.io.OutputStream)
+    1170:1179:public static void copy(java.io.Reader,java.io.OutputStream,java.lang.String)
+    1199:1216:public static boolean contentEquals(java.io.InputStream,java.io.InputStream)
+    1236:1253:public static boolean contentEquals(java.io.Reader,java.io.Reader)
+com.sqt001.ipcall.util.LineIterator
+com.sqt001.ipcall.util.LogUtil:
+    public static final java.lang.String LOG_FILE_PATH
+    24:25:public static void i(java.lang.String,java.lang.String)
+    45:49:public static void clear()
+    125:129:public static void toast(android.content.Context,java.lang.String)
+com.sqt001.ipcall.util.NetworkFailException:
+    private static final long serialVersionUID
+    11:12:public NetworkFailException(java.lang.Exception)
+    19:20:public NetworkFailException(java.lang.String,java.lang.Exception)
+com.sqt001.ipcall.util.ResourceUtils:
+    private static final java.lang.String EMPTY_STRING
+com.sqt001.ipcall.util.SmsSender:
+    public static final java.lang.String DELIVERED_ACTION
+    public static final java.lang.String SENT_ACTION
+    32:39:public static void sendSMS(java.lang.String,java.lang.String)
+    50:51:public void sendSMS(java.lang.String,java.lang.String,java.util.Map,android.content.BroadcastReceiver,android.content.BroadcastReceiver)
+    88:94:private java.lang.String createSmsWithParameters(java.lang.String,java.util.Map)
+    98:102:private java.lang.String join(java.util.List,java.lang.String)
+com.sqt001.ipcall.util.StrUitl:
+    46:80:public static java.util.List sort(java.util.List)
+    84:87:public static java.util.List sort(java.lang.String[])
+    163:184:public static java.lang.String[] QuickSort(java.lang.String[],int,int)
+com.sqt001.ipcall.util.Tuple:
+    25:25:public static com.sqt001.ipcall.util.Tuple of(java.lang.Object[])
+    53:53:public int size()
+com.sqt001.ipcall.util.UserTask:
+    private static final java.lang.String LOG_TAG
+    private static final int CORE_POOL_SIZE
+    private static final int MAXIMUM_POOL_SIZE
+    private static final int KEEP_ALIVE
+    private static final int MESSAGE_POST_RESULT
+    private static final int MESSAGE_POST_PROGRESS
+    private static final int MESSAGE_POST_CANCEL
+    342:342:public final java.lang.Object get()
+    362:362:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)

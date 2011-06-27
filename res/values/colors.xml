@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent_dark">#99000000</color>
+    <color name="translucenter_dark">#bf000000</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+     <color name="gray">#C8C8C8C8</color>
+      <color name="pinned_header_background">#ff202020</color>
+          <color name="view_background">#1c1c1c</color>
+    <color name="title_background">#828282</color>
+    <color name="shadow">#cc222222</color>
+    <color name="transparent">#00000000</color>
+</resources>

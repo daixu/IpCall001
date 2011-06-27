@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/contact_context_call" android:title="拨号"></item>
+   <item android:id="@+id/contact_context_add_quick" android:title="加入常拨"></item>
+</menu>

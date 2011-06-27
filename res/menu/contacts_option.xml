@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/contacts_option_quick" android:title="常用号码" android:icon="@drawable/ic_menu_agenda"></item>
+ </menu>

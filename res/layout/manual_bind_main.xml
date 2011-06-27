@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<include layout="@layout/app_details"
+		android:layout_alignParentTop="true" android:id="@+id/app_snippet" />
+
+	<TextView android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:textStyle="bold"
+		android:paddingTop="16dip" android:paddingLeft="16dip"
+		android:layout_below="@id/app_snippet" android:textColor="?android:attr/textColorSecondary"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="" android:paddingBottom="36dip" />
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/user_id_field"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/app_snippet">
+
+		<TextView android:id="@+id/user_id" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="3"
+			android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+		<TextView android:id="@+id/user_id_value"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="4" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:id="@+id/user_account_field" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/user_id_field">
+
+		<TextView android:id="@+id/user_account"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="3" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+		<TextView android:id="@+id/user_account_value"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="4" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:id="@+id/user_balance_field" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/user_account_field">
+
+		<TextView android:id="@+id/user_balance"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="3" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+		<TextView android:id="@+id/user_balance_value"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="4" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:id="@+id/user_password_field" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/user_balance_field">
+
+		<TextView android:id="@+id/user_password"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="2" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+		<TextView android:id="@+id/user_password_value"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="3" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+
+
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:id="@+id/modify_password_field" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/user_password_field">
+
+		<TextView android:id="@+id/modify_password"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:layout_weight="2" android:textColor="?android:attr/textColorSecondary"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="" android:paddingLeft="16dip" />
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:id="@+id/user_unbind_account" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/modify_password_field">
+	
+		<TextView android:id="@+id/unbind_account"
+		android:layout_width="0dip" android:layout_height="wrap_content"
+		android:layout_weight="4" android:textColor="?android:attr/textColorSecondary"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="" android:paddingLeft="16dip" />
+		
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:orientation="horizontal" style="@android:style/ButtonBar">
+
+		<Button android:id="@+id/bind_button" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:drawableRight="@drawable/button_indicator_finish"
+			android:text="@string/bind" />
+		<Button android:id="@+id/back_button" android:layout_width="0dip"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:drawableRight="@drawable/button_indicator_finish"
+			android:text="@string/back" />
+	</LinearLayout>
+</RelativeLayout>
